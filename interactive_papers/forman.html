@@ -1,0 +1,751 @@
+<?php include("/home2/bettybae/public_html/password_protect.php"); ?>
+<html>
+	<head>
+			<link rel="stylesheet" type="text/css" href="interactive-old.css">
+			<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+			
+	<script>
+
+	$(document).ready(function(){
+		$("a.footnote").click(function(){
+			switch($(this).attr("id").replace("footnote-", "")*1)
+						   
+			
+			/* the part below is where you enter your commentary. 
+			please put all commentary text/code between the single quotes. 
+			Anything you put in between the single quotes functions as html code, 
+			so you can add links and style the text appropriately(if you know how!)*/
+			
+			/* <a href="" target="_blank">This is a link.</a> 
+				You can put whatever page you want to link to, between the double quotes.
+				Any text you put between the two angle bracket sets, ex) This is a link, 
+				will show up as a clickable hyperlink.
+				target="_blank" attribute - makes the link open in a new tab/window.
+				
+				
+			   <img src="">(this is an image tag.)
+			   Put the image URL between the double quotes. 
+			   If the image is big, or the link is slow...
+			   1) save the file.
+			   2) upload it to the img folder.
+			   3) Now the image link should be http://bettybae.ncity.net/interactive_papers/img/whateveryourimagefileis.jpg
+			   4) Change the end part, and then paste the link inside the double quotes.
+			   
+			 */			   
+			
+			 {
+			case 1: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_01.jpg">'); break;
+
+			case 2: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_02.jpg">'); break;
+			
+			case 3: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_03.jpg">'); break;
+			
+			case 4: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_04.jpg">'); break;
+			
+			case 5: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_05.jpg">'); break;
+			
+			case 6: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_06.jpg">'); break;
+			
+			case 7: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_07.jpg">'); break;
+			
+			case 8: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_08.jpg">'); break;
+			
+			case 9: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_09.jpg">'); break;
+			
+			case 10: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_10.jpg">'); break;
+			
+			case 11: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_11.jpg">'); break;
+			
+			case 12: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_12.jpg">'); break;
+			
+			case 13: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_13.jpg">'); break;
+			
+			case 14: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_14.jpg">'); break;
+			
+			case 15: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_15.jpg">'); break;
+			
+			case 16: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_16.jpg">'); break;
+			
+			case 17: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_17.jpg">'); break;
+			
+			case 18: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_18.jpg">'); break;
+			
+			case 19: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_19.jpg">'); break;
+			
+			case 20: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_20.jpg">'); break;
+			
+			case 21: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_21.jpg">'); break;
+			
+			case 22: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_22.jpg">'); break;
+			
+			case 23: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_23.jpg">'); break;
+			
+			case 24: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_24.jpg">'); break;
+			
+			case 25: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_25.jpg">'); break;
+			
+			case 26: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_26.jpg">'); break;
+			
+			case 27: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_27.jpg">'); break;
+			
+			case 28: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_28.jpg">'); break;
+			
+			case 29: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_29.jpg">'); break;
+			
+			case 30: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanSeptember1939_Page_30.jpg">'); break;
+			
+			case 31: $("div#commentary").html('<b>Soho Chung and Seung-Hwan Hong:</b> Front line was concealed, for if people witnessed it themselves, they would see for certain that they are losing.'); break;
+			
+			case 32: $("div#commentary").html('<b>Soho Chung and Seung-Hwan Hong:</b> Hopes of Polish victories. In retrospect and in hindsight, it is very groundless.'); break;
+			
+			case 33: $("div#commentary").html('<b>Soho Chung and Seung-Hwan Hong:</b> Pessimistic sentiment starts. No infrastructure, arms, nor contact with the higher officials to take orders from.'); break;
+			
+			case 34: $("div#commentary").html('<b>Soho Chung and Seung-Hwan Hong:</b> Smidgly-Ridz = the high general. Very similar to K.S. Karol’s account of the war and his fluctuating--gradually worsening--sentiments along with it. Also he is very focused on the fact that the Polish are not taking -- or failing to take -- advice from the French, which might bring their demise. This may be also falsely placed hope (see the Centennia map for French efforts).'); break;
+			
+			case 35: $("div#commentary").html('<b>Malika and Jihun Lee:</b> Where geographically is Vistula located? River provides geographic, strategic advantages. <br> 500km line: line was too spread out (100km) <br>Lack of military manpower; lack of strategic knowledge'); break;
+			
+			case 36: $("div#commentary").html('<b> Malika and Jihun Lee:</b> Poland’s fall: What could they have profited from? <br>Neutrality: policy of appeasement<br>Neutral until provoked'); break;
+			
+			case 37: $("div#commentary").html('<b>Malika and Jihun Lee:</b> Italy formally owned Ethiopia. Italian propaganda divided Russians. <br>Intervention: Not actual intervention; Russia was claiming Eastern Poland for its own.'); break;
+			
+			case 38: $("div#commentary").html('<b>Malika and Jihun Lee:</b> Unholy Alliance: political antagonists temporarily joining together to fight a common enemy. <br>Eden: Secretary of State of UK<br>Lira: Italian currency<br>Interesting how militia was paid more (possible proxy war support by Germany? Have more money than gov?)'); break;
+			
+			case 39: $("div#commentary").html('<b>Rob Lee, Jongwon Lee, and Nakyeong Lee:</b> Anti-Comintern Pact: anti-communist; Japan, China, Germany, Italy, Britain<br>Was France annoyed at Hitler? Because of Franco-Soviet Treaty?<br> '); break;
+			
+			case 40: $("div#commentary").html('<b>Rob Lee, Jongwon Lee, and Nakyeong Lee:</b> seems to feel that countries are weary about Germany’s dogmatic actions, including Russia German expansion. Why did Harrison think that the Italian press is biased? What does he mean by objective? <br>It.: Italy'); break;
+			
+			case 41: $("div#commentary").html('<b>Rob Lee, Jongwon Lee, and Nakyeong Lee:</b> Absolutely opinionated'); break;
+			
+			case 42: $("div#commentary").html('<b>Rob Lee, Jongwon Lee, and Nakyeong Lee:</b> Maybe the reason he thinks so is due to the way that It. Press reported. <br> Believed that Italy was neutral & would join Allies rather than Axis which turned out wrong. <br>”technicians:” military science, transportation technology <br>M.: Mussolini'); break;
+			
+			case 43: $("div#commentary").html('<b>Paola Garrido and Taehoon Hong:</b> Why? Is someone going to open it? What kind of gas? Engine by Ford? <br>About V8 Profiteering? Maybe people who are involved in American industry were punished/put in concentration camp?'); break;
+			
+			case 44: $("div#commentary").html('<b>Paola Garrido and Taehoon Hong:</b> American passport directly correlates w/ our idea of freedom and ability to travel <br>clop-clop: sign of patrols<br>black out: What? Why? In order to attract attention from enemy bombers<br>no gaiety: atmosphere of the time'); break;
+			
+			case 45: $("div#commentary").html('<b>Paola Garrido and Taehoon Hong:</b> distrust of fellow Poland citizens'); break;
+			
+			case 46: $("div#commentary").html('<b>Paola Garrido and Taehoon Hong:</b> cavalry: It sounds the military technology of that time in Poland. What was it actually like?'); break;
+			
+			case 47: $("div#commentary").html('<b>Jiwoo Ryu and Sunghwan Kim:</b> <break> Govt.: Polish<br>Lublin: (Poland) where K.S. Karol, as an auxiliary soldier, was ordered to go<br>again: Fled before? When? Why? Was Govt Polish? If so, flee due to Russian mobilization? Poland and Russia hostile relationship?<br>planes: Germ.<br>Bucarest: cap. of Romania'); break;
+			
+			case 48: $("div#commentary").html('<b>Jiwoo Ryu and Sunghwan Kim:</b> German propaganda against the Polish govt and military directed at Polish people of the rest of the world(“neutral newsman”) What values is he talking about? <br>Govt: Germany or Poland?<br>PAT fellow: maybe Polish ____?'); break;
+			
+			case 49: $("div#commentary").html('<b>Jiwoo Ryu and Sunghwan Kim:</b> Confusion and inner conflict. Why change his mind? (PAT fellow) inner conflict between personal safety vs. national…<br>Lodz: (Poland) where K.S. Karol was a student<br>refugees: German invasion'); break;
+			
+			case 50: $("div#commentary").html('<b>Jiwoo Ryu and Sunghwan Kim:</b> Despair and helplessness <br>Lwow: Lviv (now Ukraine) occupied by Soviet and Nazi Germany<br>28: 1928<br>bombers: German air force Luftwaffe '); break;
+			
+			case 51: $("div#commentary").html('<b>Christina Lee and Hyo Myeong Park:</b> indicates high-pressure env – incorrect grammar. Had done some research before'); break;
+			
+			case 52: $("div#commentary").html('<b>Christina Lee and Hyo Myeong Park:</b> appeal to pathos – either feels pity or nonchalance for Jews. Gets a bit emotional and challenges reality w/ rhetorical questions – suggests that it is the end of this entry? '); break;
+			
+			case 53: $("div#commentary").html('<b>Christina Lee and Hyo Myeong Park:</b> The content mentioned German defenses collapsing and the date was around 27.28 March 1945.<br>dampness: The two real enemies to health were dampness and scurvy – dampness caused colds, pneumonia, consumption, and rheumatism. <br>radio: only source of amm.<br>Siegfried Line: line of defensive forts and tank defenses buit by Germany. It was not captured so Forman was right -> Feb-March 1939-1945.'); break;
+			
+			case 54: $("div#commentary").html('<b>Christina Lee and Hyo Myeong Park:</b><br>Rom: Romania?<br>even more limited communications. Despite the danger, doesn’t seem to panic – level-headed?'); break;
+			
+			case 55: $("div#commentary").html('<b>So Jeong Helen Boo and John Hee Chul Kim:</b> confusion & German subterfuge/deception strategy to cripple Polish counteractions <br>The Big Scram: evacuating by the French<br>British corresp.: official?'); break;
+			
+			case 56: $("div#commentary").html('<b>So Jeong Helen Boo and John Hee Chul Kim:</b> ignorance of the Poles!<br>”tactical retreat”: British execute/lie!'); break;
+			
+			case 57: $("div#commentary").html('<b>So Jeong Helen Boo and John Hee Chul Kim:</b> Polish military devastated. The French took the line? Really? Unlikey.'); break;
+			
+			case 58: $("div#commentary").html('<b>So Jeong Helen Boo and John Hee Chul Kim:</b> Why such a blind panic?'); break;
+			
+			case 59: $("div#commentary").html('<b>Haram and Joyce:</b> German allies have a possibility of coming under their occupation? Is Forman suggesting that Germany will exploit its allies again this time? If Germany attacked, France promised to launch an attack on Germany. Similar to K.S. Karol’s writing – in civilian’s perspective, Axis vs. Ally doesn’t really matter. Political atmosphere “bilateral” diplomacy and lack of multilateralism. <br>ally: ironic stance on the term “ally”'); break;
+			
+			case 60: $("div#commentary").html('<b>Haram and Joyce:</b> Poland rejecting Soviet Union b/c of the possibility of incorporment. -> Poland casualties increased during and after the war by USSR<br>hestitated: indicator of not trusting “ally;” betrayal<br>Dishonest relations – intended to not keep promises unless in their interest -> Is there a meaning to these “Allies” & “Axis”?'); break;
+			
+			case 61: $("div#commentary").html('In this handwritten diary, Harrison Forman, photographer and explorer, documents the Nazi invasion of Poland in 1939 during the outbreak of World War II. In his account of the events that began the war, Forman describes the agreements by Britain and France committing them to assist Poland should they be invaded by the Germans. According to Forman, Poland set the tone for their own defeat with their reluctance to ask for help from Britain and France. Forman reported on Poland’s deficiencies in Warsaw and Lvov (Polish Lwów, western Ukraine) and the lack of communication in the field caused by spies cutting commercial telephone lines. Rather than holding ground at the Vistula River (Wisła in Polish), Forman believed the Commander-in-Chief of the Polish armed forces, Edward Rydz-Śmigly, made a tactical mistake by placing his army along the German border where Germany concentrated their attacks. Forman mentions Romania and other countries trying to remain neutral to avoid friction with Germany. He contrasts this to Italy’s involvement in the war claiming their only option was to side with Germany due to Italy and Britain’s contention over Ethiopia (Italo-Ethiopian War 1935-1936). Forman continues his thoughts on the tricky alliance between the Axis powers of Italy, Germany, and the Soviet Union, telling of Italy’s fear of Russia and their suspicion of being double crossed by both countries. Italy became aware of the German-Soviet Nonaggression Pact (August 23, 1939), which cleared the way for the Nazis, led by Adolph Hitler, to invade Poland, only hours before it was signed, thereby dissolving the Anti-Comintern Pact (November 6, 1937) between Italy, German, and Japan against the Soviet Union. Forman mentions Francisco Franco, leader of the Spanish Nationalist forces during the Spanish Civil War (1936-39), and his disapproval of Hitler’s agreement with the Soviet Leader, Joseph Stalin. Despite Italy’s reluctance to enter the war, according to Forman, Benito Mussolini, Italian prime minister, committed Italy’s support to Hitler, via a message from his foreign secretary Count Galeazzo Ciano. Forman turns to his observations of civilian life in Warsaw, writing of men, women, and children digging trenches, keeping gas masks with them at all times, even when dancing at a cabaret for fear someone might pick theirs up during the chaos of an air raid. Forman notes that as the German forces broke through to the west, the Polish government fled to Romania, followed by civilians making their way to Lublin. Forman made notes about the Jewish population in Poland of three and a half million people, equivalent to 10% of the population, and by his account the “greatest proportion of all European countries.” Polish government radio reported on the capture of Königsberg (now Kaliningrad) and portions of East Prussia, and the French advancing beyond the Rhine River and taking the Siegfried Line (a system of tank obstacles). As the battle heightened, Forman reports that Poland did not have the ability to mobilize quickly nor effectively. He called the fleeing of the government and people “The Big Scram of September 6.” Forman described the “Blitzkrieg in Poland” and the Germans sending in tanks with flame throwers that “mowed down the Calvary,” followed by planes that destroyed the Polish air force and infantry. Forman closes his diary noting that Poland “tried [to] sit on two chairs” forming pacts with France against Germany and with Germany against Russia.'); break;
+			
+			case 62: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/FormanPolishCavalry.jpg"><br><br>During the invasion of Poland in 1939 cavalry was 10% of the Polish army. Cavalry units were organised in 11 cavalry brigades, each composed of 3 to 4 cavalry regiments with organic artillery, armoured unit and infantry battalion. Two additional brigades had recently been converted to motorized and armoured units, but they retained their cavalry traditions. In addition, every infantry division had an organic cavalry detachment used for reconnaissance.<br><br>In contrast with its traditional role in armed conflicts of the past (even in the Polish-Bolshevik War), the cavalry was no longer seen as a unit capable of breaking through enemy lines. Instead, it was used as a mobile reserve of the Polish armies and was using mostly infantry tactics: the soldiers dismounted before the battle and fought as a standard (yet fast) infantry. Despite media reports of the time, particularly in respect of the Battle of Krojanty, no cavalry charges were made by the Polish Cavalry against German tanks.<br><br>Although the cavalrymen retained their Szabla wz. 1934 sabres, after 1937 the lance was dropped and it was issued to cavalrymen as a weapon of choice only. Instead, the cavalry units were equipped with modern armament, including 75 mm guns, tankettes, 37mm AT guns, 40mm AA guns, anti-tank rifles and other pieces of modern weaponry.<br><br>During the campaign, the brigades were distributed among the Polish armies and served as mobile reserves. In this role, the Polish cavalry proved itself a successful measure in filling the gaps in the front and covering the withdrawal of friendly units. Polish cavalry units took part in most of the battles of 1939 and on several occasions proved to be the elite of the Polish Army.<br><br>After the September Campaign, the Polish Army on the Western Front continued its pre-war tradition of Uhlan regiments giving their names to armoured units, while Polish units on the Eastern Front used cavalry as mobile infantry until the end of the war.<br><br>"Polish cavalry," from <i>Wikipedia</i>'); break;
+			
+			case 63: $("div#commentary").html(''); break;
+			
+			case 64: $("div#commentary").html(''); break;
+			
+			case 65: $("div#commentary").html(''); break;
+			
+			case 66: $("div#commentary").html(''); break;
+			
+			case 67: $("div#commentary").html(''); break;
+			
+			case 68: $("div#commentary").html(''); break;
+			
+			case 69: $("div#commentary").html(''); break;
+			
+			case 70: $("div#commentary").html(''); break;
+			
+			case 71: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/Abyssinia.jpg">'); break;
+			
+			case 72: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/Ciano.jpg">'); break;
+			
+		}
+		});
+	});
+	</script>
+	
+	
+	
+	<h2>Interactive Papers</h2>
+	<h3>Harrison Forman - Diary from September 1939</h3>
+	When reading the paper, click the footnotes to show additional information on the side pane.
+	
+	</head>
+
+
+<body>
+
+<!-- below is the code you insert into the text to make a commentary marker you can click on.
+			the number n corresponds to the case n you see above. 
+			
+			<a href="#" class="footnote" id="footnote-n">[n]</a>
+			
+			
+-->
+			
+
+	<div id="paper">
+	
+<!--Styling Text
+
+	<i></i> italics
+	<b></b>, or <strong></strong> bold
+	<blockquote></blockquote> blockquotes
+	<h1, 2, 3, 4, 5, 6> These are heading text tags. Use as needed - h2~3 is appropriate for article titles, while h4 is appropriate for sub-titles.
+
+-->	
+	
+	<p><a href="#" class="footnote" id="footnote-61">Summary of the Forman Diary from September 1939</a> </p>
+	<p><a href="#" class="footnote" id="footnote-1">[Page 1]</a> <a href="#" class="footnote" id="footnote-31">[Comments]</a>   
+	POLISH
+Felt like trapped rat. Market day massacres. Russ[ia] want[s] Bessarabia, Hun[gar]y want[s] 
+Transylv[ania]. <a href="#" class="footnote" id="footnote-62">Cav</a>[alry] vs. mechan[ization]. French mad. Took no advice. Proud. Waited weeks before ask help, then 
+too late. Would not even tell where front line was, much less show it. How could planes 
+come to help if unknowing where to land. Also, no stores of ammunition for
+
+	</p>
+	
+	<p> <a href="#" class="footnote" id="footnote-2">[Page 2]</a> <a href="#" class="footnote" id="footnote-32">[Comments]</a>  
+	Fr[ench] plane guns and bomb-racks. Poles so reliant on cavalry, that they asked 
+	for no help for fear glory of German defeat might be stolen by Fr[ench] or Brit[ish]. 
+	Cavalry might have been valuable, if rain had come. Army surrounded most of Warsaw. 
+	Another ½ west of Lwów. Poles didn’t even have time to mob[ilize].
+
+	</p>
+	
+	<p> <a href="#" class="footnote" id="footnote-3">[Page 3]</a> <a href="#" class="footnote" id="footnote-33">[Comments]</a>
+	Day after first call many returned, for had no uniforms or arms.
+       Pol[ish] Army had no field wireless or even telephones. Consequently when spies 
+	   cut few commercial telephone lines, High Command lost complete contact with 
+	   armies. One general didn’t know where other was, and often where his own was.
+
+	</p>
+	
+	<p> <a href="#" class="footnote" id="footnote-4">[Page 4]</a> <a href="#" class="footnote" id="footnote-34">[Comments]</a> Smidgly-Ridz not 
+a trained general, 
+but a hero of 
+Bolshevik War - -  
+guerrilla fighting, etc. 
+But so conceited 
+that would take 
+no advice from French. Consequently, strung 
+his army along 
+1000 km of Germ. 
+border. Germ. 
+concentrated 
+attacks at several 
+points and broke 
+thru. Poles
+
+	</p>
+	
+	<p> <a href="#" class="footnote" id="footnote-5">[Page 5]</a> <a href="#" class="footnote" id="footnote-35">[Comments]</a>  should have retired
+to Vistula: (1) To 
+shorten and straighten  
+line to 500 km (2) To 
+dig in for a strong 
+stand. But Poles 
+refused to give up 
+any territory under 
+any circumstances. 
+Result, were out-
+flanked and 
+surrounded, with 
+not no strong 
+second line to 
+fall back on even 
+if could retreat in
+
+	</p>
+	
+	<p> <a href="#" class="footnote" id="footnote-6">[Page 6]</a> <a href="#" class="footnote" id="footnote-36">[Comments]</a>  time.
+   Romania and 
+other small countries 
+refuse to profit by 
+Poland’s fall. Still 
+insist on complete 
+neutrality – sepa –
+rately – refusing 
+proferred Br. + Fr. 
+help, for fear 
+antagonizing Germ. 
+Yet what will 
+But will, like 
+Poland, yell 
+for help when 
+too late, as
+
+	</p>
+	
+	<p> <a href="#" class="footnote" id="footnote-7">[Page 7]</a> <a href="#" class="footnote" id="footnote-37">[Comments]</a> Toute s’arrange a Romanie
+It. Feel that were forced 
+To turn to G. because 
+of Brit. opposition to Ethiop.
+Know that Germ., whom 
+They hate, would xx 
+them if join Hitler.
+  Have good sense of 
+humor. Laugh aloud
+at dwarfish Jap.
+diplomats in newark 
+being received by 
+It. officials.
+   Significant that 
+It. Controlled press 
+speaks of “Russ.
+intervention” in Poland.
+
+	</p>
+	
+	<p> <a href="#" class="footnote" id="footnote-8">[Page 8]</a> <a href="#" class="footnote" id="footnote-38">[Comments]</a>  It. definitely scared 
+by Russ. angle in War.
+   Revolution here 
+before church would 
+allow joining Unholy 
+Alliance.
+   Blame everything 
+on Eden’s policy in 
+<a href="#" class="footnote" id="footnote-71">Eth.</a> which forced It. 
+into arms of Hitler.
+    300,000 Fascist Militia
+received 8 lira/day, compared
+with ½ lira/day rec’d by 
+regular troops. Agitation 
+resulted in reducing Fas. 
+Mil. Pay to 1 lira/day and
+raising reg./troops to same.
+
+	</p>
+	
+	<p> <a href="#" class="footnote" id="footnote-9">[Page 9]</a> <a href="#" class="footnote" id="footnote-39">[Comments]</a> Italians first knew of 
+Germ.-Russ Pact only 8 
+hrs. before signing. <a href="#" class="footnote" id="footnote-71">Ciano</a>
+Mad, because means end 
+of Anti-Comintern Pact.
+Also double-cross. Were
+It. to join Germ. they would
+get worst win or lose.
+They’re are vulnerable
+to attack by air and sea.
+Even Franco annoyed
+at Hitler double-cross.
+Hitler told by Muss. thru
+<a href="#" class="footnote" id="footnote-72">Ciano</a> that It. would 
+support him in another
+blackmailing Munich.
+
+	</p>
+	
+	<p> <a href="#" class="footnote" id="footnote-10">[Page 10]</a> <a href="#" class="footnote" id="footnote-40">[Comments]</a> But if Hitler insisted
+on Poland attack, It.
+would not come in. 
+Hit. then made deal
+with Russ. – who
+now also worried at possible xx with Germ.
+on their border. Are 
+forced to mobilize 
+to and worry about 
+Hitler’s g wanting
+of Ukraine.
+   It. Press, which is 
+One of most contr-
+rolled in Europe, is 
+Completely objective
+
+	</p>
+	
+	<p> <a href="#" class="footnote" id="footnote-11">[Page 11]</a> <a href="#" class="footnote" id="footnote-41">[Comments]</a> in reporting war.
+Absolutely no 
+Opinionating, which
+is amazing. No 
+chest-pounding. No 
+mention of Axis. Are 
+worried about Germ. 
+pressure to supply 
+materials, knowing 
+Fr. + Eng. Watching 
+closely, and if F.HE. suspect this will 
+demand Italy come 
+in for or against,
+or at least - - be 
+blockaded. So hopes
+
+	</p>
+	
+	<p> <a href="#" class="footnote" id="footnote-12">[Page 12]</a> <a href="#" class="footnote" id="footnote-42">[Comments]</a>of Italy to profit by 
+war thus blighted. 
+Formerly many
+Germ. “technicians” 
+here. Now none. Man 
+in street glad. Hate 
+Germans. Italy 
+wants no war. Least 
+jittery of all neutrals. 
+If forced to make 
+choice, more chance to 
+join Allies than Hitler  
+-- who’ll make Colony 
+Of Italy. No single
+word from M. in 2 wks.
+    Hope for ruin,
+ Servants closing wind-
+ows. Sweltering
+
+	</p>
+	
+	<p> <a href="#" class="footnote" id="footnote-13">[Page 13]</a> <a href="#" class="footnote" id="footnote-43">[Comments]</a> Windows should be
+open during raid, or
+broken by concussion.
+But believe will keep
+out gas. Fear in eyes.
+Hushed voices. Blued
+flashlights. but
+bright moon floods 
+city so easily spotted
+from air. V8 proti-
+eering under penalty
+of concentration camp.
+Everyone digs trenches.
+Men, women + child-
+ren. No. of hours record-
+ed in a pass-card given
+
+	</p>
+	
+	<p> <a href="#" class="footnote" id="footnote-14">[Page 14]</a> <a href="#" class="footnote" id="footnote-44">[Comments]</a>Hotel porter who said: 
+"Best Passport in the
+World!"
+   Quiet clop-clop of
+horse + buggies in 
+black out. An anach-
+ronism. Cabarets open,
+but no gaiety. In
+critical days no 
+longer checked gas
+masks with hats +
+coats when entering
+restaurant, etc. Even
+danced with masks.
+For knew you'd
+have no time no
+
+	</p>
+	
+	<p> <a href="#" class="footnote" id="footnote-15">[Page 15]</a> <a href="#" class="footnote" id="footnote-45">[Comments]</a>
+strength to fight
+someone who'd picked
+up your mask at
+an alarm. It was a
+grim thought and picture of to what
+animalistic depths
+the world has des-
+cended in this Twilight
+of Civilization. Gas
+masks for babies!
+Tak! Tak! Tak!
+  The rains came
+2 weeks too late.
+Might have saved
+Poland by bogging
+
+	</p>
+	
+	<p> <a href="#" class="footnote" id="footnote-16">[Page 16]</a> <a href="#" class="footnote" id="footnote-46">[Comments]</a>down Boche mechanized
+troops, which cavalry
+no matter how brave
+could not hope to 
+resist. Cavalry okay
+in bad weather. 
+Poles had hoped, to
+clo even been confident
+of victory with better
+mobile cavalry in
+bad weather. But....
+Courage and flesh
+are no match a-
+gainst steel and 
+mobili driving
+mobility.
+
+	</p>
+	
+	<p> <a href="#" class="footnote" id="footnote-17">[Page 17]</a> <a href="#" class="footnote" id="footnote-47">[Comments]</a>Govt. stayed only few 
+hours in Lublin, fleeing 
+again when news of 
+Germ. break-through to west. Headed for Russ border; but when word 
+of Russ. mobil., Gov't scrammed south to 
+tiny piece Romanian 
+border. Planes carried 
+many on to Bucarest. 
+Germ. Prop. som Bureau 
+-- best in world -- ar- 
+ranged for neutral 
+newsmen to view 
+"mutilated" German
+
+	</p>
+	
+	<p> <a href="#" class="footnote" id="footnote-18">[Page 18]</a> <a href="#" class="footnote" id="footnote-48">[Comments]</a>civilians at hands 
+of Polish. Then facili-  
+tated rapid release of photographs and 
+stories. Poles had plenty 
+to shout about, but 
+didn't realize value 
+of getting Press on scene. Thousands of buses 
+in Lublin. No gas for 
+cars, which taken 
+by Govt.
+    Case of PAT fellow 
+who picked me 
+up and took me 
+to Embassy. Got
+
+	</p>
+	
+	<p> <a href="#" class="footnote" id="footnote-19">[Page 19]</a> <a href="#" class="footnote" id="footnote-49">[Comments]</a> wind up when saw 
+everyone evacuating. Decided to get out 
+himself. But by time 
+got to Lublin, was 
+brave Pole again. Even 
+going to volunteer. But 
+later looking for me 
+again to get gas go on.   
+          In ditch man,
+wife + baby. Refugees 
+from Lodz. They had 
+nothing but car and 
+few handbags. Yet 
+could get gas because 
+one of civilian de-
+
+	</p>
+	
+	<p> <a href="#" class="footnote" id="footnote-20">[Page 20]</a> <a href="#" class="footnote" id="footnote-50">[Comments]</a> 
+fenders of Lwow a-  
+gainst Russians in 28.  "Brave then, and brave 
+again now," said he. 
+"But," with look at 
+wife and baby, then overhead at bombers,
+“what can I do 
+against them?" point- 
+ing to sky. Yes, what 
+could whole city do 
+against "them"? The 
+2nd largest city 
+in Poland, totally defenseless against 
+plane attack!
+
+	</p>
+	
+	<p> <a href="#" class="footnote" id="footnote-21">[Page 21]</a> <a href="#" class="footnote" id="footnote-51">[Comments]</a> 
+Perhaps they did 
+have anti-aircraft 
+guns. If so, still more disgraceful in not 
+have ammunition.
+    Jews will suffer 
+most. 3 1/2 million of 
+them. 10% pop. -- great- 
+est proportion of all European countries. (Germany has only 
+1% Jews.) And, 
+despite Poles protest 
+that Jews have 
+control of industry 
+the Jews in Poland
+
+	</p>
+	
+	<p> <a href="#" class="footnote" id="footnote-22">[Page 22]</a> <a href="#" class="footnote" id="footnote-52">[Comments]</a> are of the lowest 
+class. In Ghettos, 
+bearded and booted, 
+filth, and clad in 
+long-gowned trad- 
+itional garb. Well 
+they knew what was 
+in store for them. Yet
+ what could they do? 
+Where could they go? 
+Were not permitted 
+to travel.
+   For that matter, 
+all refugee travel was stopped after 
+first few days.
+
+	</p>
+	
+	<p> <a href="#" class="footnote" id="footnote-23">[Page 23]</a> <a href="#" class="footnote" id="footnote-53">[Comments]</a>
+Gov't explained this 
+by saying had to 
+keep roads clear. 
+Gov't radio also 
+claimed fantastic successes . . such 
+as capture of Konigsberg 
+and half of E. Prussia. 
+Also reports of Fr. 
+“advancing another 
+80 km today beyond 
+Rhine." Details 
+given of “dampness”
+ and such, in 
+Siegfried Line which 
+Fr. supposed to have taken.
+
+	</p>
+	
+	<p> <a href="#" class="footnote" id="footnote-24">[Page 24]</a> <a href="#" class="footnote" id="footnote-54">[Comments]</a>
+Gave out rumors that 
+Hitler was abdicating.   Govt. out to Rom. 
+in scores airplanes.
+   Germ. knew Poles unprepared for rapid mobilization. Thus 
+plan was to drive thru 
+with strong spear-
+head mechanized 
+attacks without stop-
+ping to mop up or consolidate, which 
+coupled with almost complete paralization 
+of communications
+
+	</p>
+	
+	<p> <a href="#" class="footnote" id="footnote-25">[Page 25]</a> <a href="#" class="footnote" id="footnote-55">[Comments]</a>by spies and bomb- 
+ings, resulted in 
+wild panic amongst 
+Poles with fleeing 
+Govt, etc. so that 
+unable to effect 
+organized mobilization. 
+In this were com-
+pletely successful. 
+   The Big Scram of 
+Sept. 6.
+   BLITZKRIEG IN 
+POLAND.
+   British corresp.
+who refused to be- 
+lieve in collapse
+
+	</p>
+	
+	<p> <a href="#" class="footnote" id="footnote-26">[Page 26]</a> <a href="#" class="footnote" id="footnote-56">[Comments]</a>Poland, despite 
+evidences. Insisted 
+only “tactical retreat" according to plan."
+      When P. Gov't asked 
+why no fortifications 
+replied proudly “we 
+don't need them. This 
+will be a mobile war. 
+Our valiant cavalry 
+(40 regiments) will 
+not only cut down 
+any attack, but we 
+will actually 
+invade Germany. 
+G. sent 5,000 tanks
+
+	</p>
+	
+	<p> <a href="#" class="footnote" id="footnote-27">[Page 27]</a> <a href="#" class="footnote" id="footnote-57">[Comments]</a>with flame throwers,
+which mowed down
+cavalry, who were
+finished off by planes
+which also - - after
+destroying P. air force --
+decimated P. infantry.
+   Relied upon “mobile war”
+but prepared for no
+retreat or defenses if
+thrown back.
+      Little protection for
+Civilians in 3-story Warsaw.
+      Day of Big Scram
+knapsacks were
+hurriedly purchased
+ and such, in 
+Siegfried Line which 
+Fr. supposed to have taken.
+
+	</p>
+	
+	<p> <a href="#" class="footnote" id="footnote-28">[Page 28]</a> <a href="#" class="footnote" id="footnote-58">[Comments]</a> and packed with
+suitcase even tho
+had a car. For who 
+knew when more gas
+might be obtained,
+or car commandeered,
+and one had to walk 
+with only what he 
+could carry. And
+there’d be no hitch-
+hiking, either. Cars
+were stopped, and
+if carried a pet dog
+of soche such,
+were mobbed 
+by frenzied refugees
+
+	</p>
+	
+	<p> <a href="#" class="footnote" id="footnote-29">[Page 29]</a> <a href="#" class="footnote" id="footnote-59">[Comments]</a>for example Germ.
+demand gas stores,
+supplies, etc. Will
+become occupied
+states in effect
+if not actuality. See
+plight of Bulgaria
+in World War when
+Germ. took everything
+for Germ. from 
+Bulgaria – their ally.
+     Poland tried
+sit on two chairs.
+Had pact with France
+against Germ. + with
+Germ. against Russ.
+
+	</p> 
+	
+	<p> <a href="#" class="footnote" id="footnote-30">[Page 30]</a> <a href="#" class="footnote" id="footnote-60">[Comments]</a>So hesitated accept
+help from France when
+Germ. began putting
+on pressure. Result:
+Germ. + Russ. got to-
+gether for partition on Pol.
+Poles reason not ac-
+cepting French help.
+“We don’t want be
+colony France!”
+
+	</p>
+	
+	<p>
+	</p>
+	
+	<p>
+	</p>
+	
+	
+		
+</div>
+
+<div id="commentary" style="border-right:2px solid black">
+Comment goes here</div>
+</body>
+</html>

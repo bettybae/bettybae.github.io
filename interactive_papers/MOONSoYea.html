@@ -1,0 +1,737 @@
+
+
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="interactive-old.css">
+
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+
+
+<script>
+
+
+
+$(document).ready(function(){
+
+$("a.footnote").click(function(){
+
+switch($(this).attr("id").replace("footnote-", "")*1)
+
+
+
+
+
+/* the part below is where you enter your commentary. 
+
+please put all commentary text/code between the single quotes. 
+
+Anything you put in between the single quotes functions as html code, 
+
+so you can add links and style the text appropriately(if you know how!)*/
+
+
+
+/* <a href="" target="_blank">This is a link.</a> 
+
+You can put whatever page you want to link to, between the double quotes.
+
+Any text you put between the two angle bracket sets, ex) This is a link, 
+
+will show up as a clickable hyperlink.
+
+target="_blank" attribute - makes the link open in a new tab/window.
+
+
+
+
+
+<img src="">(this is an image tag.)
+
+Put the image URL between the double quotes. 
+
+If the image is big, or the link is slow...
+
+1) save the file.
+
+2) upload it to the img folder.
+
+3) Now the image link should be http://bettybae.ncity.net/interactive_papers/img/whateveryourimagefileis.jpg
+
+4) Change the end part, and then paste the link inside the double quotes.
+
+
+
+*/ 
+
+
+
+{
+
+case 1: $("div#commentary").html('<p><b>Denise Domenach-Lallich</b> was an activist in the youth resistance movement in France during World War II. Denise Domenach was born in 1924 in Lyon, France. <sup>1</sup> She grew up in a relatively well-off Catholic family that warned young Denise of the “dangers of Nazi ideology,” <sup>2</sup> which contributed to the ingraining of strong viewpoints in the girl from a young age. Denise was but a fifteen-year-old school girl when World War II broke out in 1939. <sup>3</sup> The German invasion of France forced Denise and her family (excluding the men) to relocate to a relative’s residence in the countryside. <sup>4</sup> She confided her thoughts and feelings in her “exercise book,” <sup>5</sup> which was basically a diary that held personal accounts of her experiences as a young girl in the middle of national strife. A year later, Denise joined the resistance movement in 1940 under the false name “Duplessys.” <sup>6</sup> At the end of the war in 1945, Denise met her future husband, Bernard Lallich, in a home intended for young members of the resistance. <sup>7</sup> Denise Domenach-Lallich became an inspiration to young activists to fight for their rights. Today, 80-year-old Denise is still living in Lyon. <sup>8</sup> </p><p>References</p><p>[1] Laurent Beccaria. <i>les arènes</i>. http://www.arenes.fr/spip.php?auteur27 (accessed May 14, 2014).<br>[2] Laurent Beccaria. <i>les arènes</i>. http://www.arenes.fr/spip.php?auteur27 (accessed May 14, 2014).<br>[3] <i>Centre d’Histoire de la Resistance et de la Deportation</i>. http://www.chrd.lyon.fr/chrd/sections/fr/ressources_historiqu/temoignages/temoignages_1/?aIndex=6 (accessed May 14, 2014).<br>[4] <i>Centre d’Histoire de la Resistance et de la Deportation</i>. http://www.chrd.lyon.fr/chrd/sections/fr/ressources_historiqu/temoignages/temoignages_1/?aIndex=6 (accessed May 14, 2014).<br>[5] <i>Women’s History Network Blog</i>. http://womenshistorynetwork.org/blog/?p=944 (accessed May 14, 2014).<br>[6] Laurent Beccaria. <i>les arènes</i>. http://www.arenes.fr/spip.php?auteur27 (accessed May 14, 2014).<br>[7] <i>Centre d’Histoire de la Resistance et de la Deportation</i>. http://www.chrd.lyon.fr/chrd/sections/fr/ressources_historiqu/temoignages/temoignages_1/?aIndex=6 (accessed May 14, 2014).<br>[8] Laurent Beccaria. <i>les arènes</i>. http://www.arenes.fr/spip.php?auteur27 (accessed May 14, 2014).'); break;
+
+
+
+case 2: $("div#commentary").html('<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Vire_1944.jpg/800px-Vire_1944.jpg"><br><br>Vire 1944, 1944 (Conseil Régional de Basse-Normandie, France)'); break;
+
+
+
+case 3: $("div#commentary").html('<img src="http://cache3.asset-cache.net/gc/3142293-15th-may-1939-a-world-war-ii-air-raid-gettyimages.jpg?v=1&c=IWSAsset&k=2&d=PYXg7i28kAvvYOs2%2B8KQSHAlC1n1vjGTzf7%2B4FMRonImH%2B8w6LA3UEs4rCC%2FGv70"><br><br>Air Raid Siren, May 13, 1939 (Cambridge Arterial Road, United Kingdom)'); break;
+
+
+
+case 4: $("div#commentary").html(' Selections about “<b>German Invasions</b>” from Max Hastings, <i>Inferno: The World at War, 1939-1945</i> (2011)<br><br>“On the evening of 9 May 1940, French troops on the Western Front heard “a vast murmuring” in the German lines; word was passed back that the enemy was moving. Commanders chose to believe that this, like earlier such alarms, was false. Though the German assault upon Holland, Belgium and France began at 4:35 a.m. on 10 May, it was 6:30 before the Allied C-in-C, Gen. Maurice Gamelin, was awakened in his bed, five hours after the first warning from the outposts. Following the long-anticipated pleas for assistance that now arrived from governments in Brussels and The Hague, neutrals in the path of the German storm, Gamelin ordered an advance to the river Dyle in Belgium, fulfilling his longstanding contingency plan. The British Expeditionary Force’s nine divisions and the best of France’s forces-twenty-nine divisions of First, Seventh and Ninth armies-began rolling northeastwards. The Luftwaffe made no serious attempt to interfere, for this was exactly where Hitler wanted the Allies to go. Their departure removed a critical threat to the flank of the main German armies, which were thrusting forward further south. The defences of Holland and Belgium were smashed open. In the first hours of 10 May, glider-landed Luftwaffe paratroops secured the vital Eben Emael fort, covering the Albert Canal-built by a German construction company which obligingly provided its blueprints to Hitler’s planners-and two bridges across the Maas at Maastricht. Even as Churchill took office as Britain’s prime minister, German spearheads were rolling up the Dutch army. Meanwhile, southwestwards, some 134,000 men and 1,600 vehicles, of which 1,222 were tanks, began threading their way through the Ardennes forest to deliver the decisive blow of the campaign against the weak centre of the French line. Germans joked afterwards that they created “the greatest traffic jam in history” in the woods of Luxembourg and southern Belgium, forcing thousands of tanks, trucks and guns along narrow roads the Allies had deemed unsuitable for moving an army. The advancing columns were vulnerable to air attack, had the French recognised their presence and importance. But they did not. From beginning to end of the struggle, Gamelin and his army commanders directed operations in a miasma of uncertainty, seldom either knowing where the Germans had reached, or guessing whither they were going. Disproportionate historical attention has focused upon the operations of the small British contingent, and its escape from Dunkirk. The overriding German objective was to defeat the French army, by far the most formidable obstacle to the Wehrmacht. The British role was marginal; especially in the first days, the BEF commanded the attention of only modest German air and ground forces. It is untrue that France’s defence rested chiefly on the frontier fortifications of the Maginot Line: the chief purpose of its bunkers and guns was to liberate men for active operations farther north. Scarred by memories of the 1914-18 devastation and slaughter in their own country, the French were bent upon waging war somewhere other than on their own soil. Gamelin planned a decisive battle in Belgium, heedless of the fact that the Germans had other ideas. The French C-in-C’s gravest mistake in the early spring of 1940 had been to move the French Seventh Army to the left of the Allied line in anticipation of the Belgian incursion. French vanguards crossed into Holland to find that the Dutch army had already retreated too far northeastward to create a common front, while the Belgian army was falling back in disarray. Gamelin’s formations fought hard in the significant battles that followed in Belgium: although short of antiaircraft and antitank guns, they had some good tanks, notably the SOMUA S35. In a long slogging match at Hannut between 12 and 14 May, 165 panzers were knocked out, for the loss of 105 French tanks. The French front on the Dyle remained unbroken. But its defenders were soon obliged to fall back, because they found their right flank turned. The Germans, gaining possession of the Hannut battlefield, were able to recover and repair most of their damaged armour.” (54, from Julian Jackson, <i>The Fall of France</i>[2003], 11) '); break;
+
+
+
+case 5: $("div#commentary").html(' Selections about “<b>Reynaud</b>” from Max Hastings, <i>Inferno: The World at War, 1939-1945</i> (2011)<br><br>“In the last weeks before Germany attacked in the west, relations between the two allies became sulphurous: each blamed the other for failure to wage war effectively. French public opinion turned decisively against Prime Minister Daladier, who sought a parliamentary vote of confidence on 20 March: only 1 deputy voted against him, 239 in his support-’-but 300 abstained. Daladier resigned, though remaining in the government as defence minister, to be succeeded by Paul Reynaud. France’s new leader was a sixty-rwo-year-old conservative, notable for high intelligence and physical insignificance-he stood less than five feet, three inches high. Eager to take the initiative, he now proposed a landing in Norway and bombing of Soviet oilfields at Baku. Gamelin said sourly: "After Daladier who couldn’t make a decision at all, here we are with Reynaud who makes one every five minutes." France’s prime minister initially supported Churchill’s cherished scheme to mine the Rhine, only to be repudiated by his own ministers, still fearing retaliation. The British said that if France would not support the mining operation, they in turn would decline to join a landing at Narvik.” (42, from Julain Jackson, <i>The Fall of France</i>[2003], 127)<br><br>“Thereafter in London, ministers and service chiefs favoured evacuation of Namsos and Andalsnes. Neville Chamberlain, self-centred as ever, was fearful of bearing blame for failure. The press, encouraged by the government, had infused the British people with high hopes for the campaign; the BBC had talked absurdly about the Allies "throwing a ring of steel around Oslo." Now, the prime minister mused to colleagues that it might be prudent to tell the House of Commons that the British had never intended to conduct long-term operations in central Norway. The French, arriving in London on 27 April for a meeting of the Allied Supreme War Council, were stunned by the proposal to quit, and demurred fiercely. Reynaud returned to Paris claiming success in galvanising Chamberlain and his colleagues: "We have shown them what to do and given them the will to do it." This was fanciful: two hours later, the British evacuation order was given. Pamela Street, a Wiltshire farmer’s daughter, wrote sadly in her diary: "The war goes on like a great big weight which gets a bit heavier every day." The Norwegian campaign spawned mistrust and indeed animosity between the British and French governments which proved irreparable, even after the fall of Chamberlain. To a colleague on 27 April, Reynaud deplored the inertia of British ministers, "old men who do not know how to take a risk." Daladier told the French cabinet on 4 May: "We should ask the British what they want to do: they pushed for this war, and they wriggle out as soon as it is a matter of taking measures which could directly affect them." Shamefully, British local commanders were instructed not to tell the Norwegians they were leaving. Gen. Bernard Paget ignored this order, provoking an emotional scene with the Norwegian C-in-C, Otto Ruge, who said: "So Norway is to share the fate of Czechoslovakia and Poland. But why? Why? Your troops haven’t been defeated!" After this brief explosion, however, Ruge’s natural dignity and calm reasserted themselves. Some historians have criticised his defence of central Norway, but it is hard to imagine any deployment of his small forces that would have altered the outcome. When King Haakon and his government opted for exile in Britain, the army C-in-C refused to leave his men and insisted upon sharing their captivity.” (49, from Miranda Corben, <i>Street Diary in possession of Miranda Corben</i>[1940])'); break;
+
+
+
+case 6: $("div#commentary").html(' Selections about “<b>armistice</b>” from Max Hastings, <i>Inferno: The World at War, 1939-1945</i> (2011)<br><br>“ On the evening of 12 June, Weygand proposed seeking an armistice. Reynaud suggested that he and his ministers might retain office in exile, but Marshal Philippe Petain dismissed the notion. On the sixteenth, Reynaud accepted that most of his ministers favoured capitulation, and resigned in favour of Petain. The marshal broadcast to the French people next morning: "It is with a heavy heart I say to you today that it is necessary to stop fighting." Thereafter, few French soldiers saw much purpose in sacrificing their lives on the battlefield. Yet there were a few gallant, futile stands. An infantry battalion near Chateauneuf stubbornly held its positions. Another episode became enshrined in the legend of France: as columns of refugees and deserters from the army fled across the Loire, the commandant of the French cavalry school at Saumur, a hoary old warhorse, Col. Daniel Michon, was ordered to deploy his 780 cadets and instructors to defend the area’s bridges. He assembled them all in Saumur’s great amphitheatre and announced: "Gentlemen, for the school it is a mission of sacrifice. France is depending on you." One pupil, Jean-Louis Dunand, who had abandoned architectural studies in Paris to become a cadet, wrote exultantly to his parents: "I am so impatient to be in the fight, as are all my comrades here. Times a hundred times more painful await me, but 1 am prepared to meet them with a smile."” (70, from Roy Macnab, <i>for Honour Alone</i>[1988], 59)'); break;
+
+
+
+case 7: $("div#commentary").html(''); break;
+
+
+
+case 8: $("div#commentary").html(''); break;
+
+
+
+case 9: $("div#commentary").html(''); break;
+
+
+
+case 10: $("div#commentary").html(''); break;
+
+
+
+case 11: $("div#commentary").html(''); break;
+
+
+
+case 12: $("div#commentary").html(''); break;
+
+
+
+case 13: $("div#commentary").html(''); break;
+
+
+
+case 14: $("div#commentary").html(''); break;
+
+
+
+case 15: $("div#commentary").html(''); break;
+
+
+
+case 16: $("div#commentary").html(''); break;
+
+
+
+case 17: $("div#commentary").html(''); break;
+
+
+
+case 18: $("div#commentary").html(''); break;
+
+
+
+case 19: $("div#commentary").html(''); break;
+
+
+
+case 20: $("div#commentary").html(''); break;
+
+
+
+case 21: $("div#commentary").html(''); break;
+
+
+
+case 22: $("div#commentary").html(''); break;
+
+
+
+case 23: $("div#commentary").html(''); break;
+
+
+
+case 24: $("div#commentary").html(''); break;
+
+
+
+case 25: $("div#commentary").html(''); break;
+
+
+
+case 26: $("div#commentary").html(''); break;
+
+
+
+case 27: $("div#commentary").html(''); break;
+
+
+
+case 28: $("div#commentary").html(''); break;
+
+
+
+case 29: $("div#commentary").html(''); break;
+
+
+
+case 30: $("div#commentary").html(''); break;
+
+
+
+case 31: $("div#commentary").html(''); break;
+
+
+
+case 32: $("div#commentary").html(''); break;
+
+
+
+case 33: $("div#commentary").html(''); break;
+
+
+
+case 34: $("div#commentary").html(''); break;
+
+
+
+case 35: $("div#commentary").html(''); break;
+
+
+
+case 36: $("div#commentary").html(''); break;
+
+
+
+case 37: $("div#commentary").html(''); break;
+
+
+
+case 38: $("div#commentary").html(''); break;
+
+
+
+case 39: $("div#commentary").html(''); break;
+
+
+
+case 40: $("div#commentary").html(''); break;
+
+
+
+case 41: $("div#commentary").html(''); break;
+
+
+
+case 42: $("div#commentary").html(''); break;
+
+
+
+case 43: $("div#commentary").html(''); break;
+
+
+
+case 44: $("div#commentary").html(''); break;
+
+
+
+case 45: $("div#commentary").html(''); break;
+
+
+
+case 46: $("div#commentary").html(''); break;
+
+
+
+case 47: $("div#commentary").html(''); break;
+
+
+
+case 48: $("div#commentary").html(''); break;
+
+
+
+case 49: $("div#commentary").html(''); break;
+
+
+
+case 50: $("div#commentary").html(''); break;
+
+
+
+case 51: $("div#commentary").html(''); break;
+
+
+
+case 52: $("div#commentary").html(''); break;
+
+
+
+case 53: $("div#commentary").html(''); break;
+
+
+
+case 54: $("div#commentary").html(''); break;
+
+
+
+case 55: $("div#commentary").html(''); break;
+
+
+
+case 56: $("div#commentary").html(''); break;
+
+
+
+case 57: $("div#commentary").html(''); break;
+
+
+
+case 58: $("div#commentary").html(''); break;
+
+
+
+case 59: $("div#commentary").html(''); break;
+
+
+
+case 60: $("div#commentary").html(''); break;
+
+
+
+case 61: $("div#commentary").html(''); break;
+
+
+
+case 62: $("div#commentary").html(''); break;
+
+
+
+case 63: $("div#commentary").html(''); break;
+
+
+
+case 64: $("div#commentary").html(''); break;
+
+
+
+case 65: $("div#commentary").html(''); break;
+
+
+
+case 66: $("div#commentary").html(''); break;
+
+
+
+case 67: $("div#commentary").html(''); break;
+
+
+
+case 68: $("div#commentary").html(''); break;
+
+
+
+case 69: $("div#commentary").html(''); break;
+
+
+
+case 70: $("div#commentary").html(''); break;
+
+
+
+}
+
+});
+
+});
+
+</script>
+
+
+
+
+
+
+
+<h2>Interactive Papers</h2>
+
+<h3>MOONSoYea</h3>
+
+When reading the paper, click the footnotes to show additional information on the side pane.
+
+
+
+</head>
+
+
+
+
+
+<body>
+
+
+
+<!-- below is the code you insert into the text to make a commentary marker you can click on.
+
+the number n corresponds to the case n you see above. 
+
+
+
+<a href="#" class="footnote" id="footnote-n">[n]</a>
+
+
+
+
+
+-->
+
+
+
+
+
+<div id="paper">
+
+
+
+<!--Styling Text
+
+
+
+<i></i> italics
+
+<b></b>, or <strong></strong> bold
+
+<blockquote></blockquote> blockquotes
+
+<h1, 2, 3, 4, 5, 6> These are heading text tags. Use as needed - h2~3 is appropriate for article titles, while h4 is appropriate for sub-titles.
+
+
+
+--> 
+
+
+
+
+
+<p><p>
+
+<a href="#" class="footnote" id="footnote-1">[Denise Domenach-Lallich]</a>, , “Une jeune fille libre: Journal” (May 10 - June 20, 1940)
+
+</p>
+
+
+
+<p>
+
+Friday, May 10
+
+</p>
+
+
+
+<p>
+
+Two important events: 
+
+</p>
+
+
+
+<p>
+
+1 - My grandfather, Papa's father, died in Hauterives last night. 
+
+</p>
+
+
+
+<p>
+
+2 - The Germans have <a href="#" class="footnote" id="footnote-2">bombed</a> Lyon, Colmar, Lille, etc. 
+
+</p>
+
+
+
+<p>
+
+1 - Papa is very sad and so are we. We’re exhausted because it's been three nights that we can’t sleep because of the [air-raid] <a href="#" class="footnote" id="footnote-3">alerts</a>. What shopping in the stores to get what we need for mourning [clothes], it’s tiring and it’s ruinously expensive. 
+
+</p>
+
+
+
+<p>
+
+2 - This evening, 5:20 to 6:45, we had an [air raid] alarm. We didn’t move our beds because we didn’t think there could be a real bombing. But the Boches [derogatory slang term for Germans] bombed Bron, the aerodrome located next door to us. We were lucky to not get anything, but in Bron there are about seventeen dead and I don’t know how many wounded. And most important the BOCHES <a href="#" class="footnote" id="footnote-4">invaded</a> Belgium, Holland and Luxembourg. After Austria, Czechoslovakia, Poland, Denmark and Norway, this is starting to get ridiculous! I hope that the USA will finally decide to move. Apparently German planes have launched poisoned candy, each wrapped in a paper on which - oh bitter irony - are written these words: Peace Sweet. 
+
+</p>
+
+
+
+<p>
+
+Sunday, May 12 
+
+</p>
+
+
+
+<p>
+
+At the moment we have been having on [air raid] alert for an hour. I should be in a cellar. But I’m not afraid and I prefer to go about my usual activities rather than breathe the mold in a shelter. We have alerts all the time, two last night, one this morning. If we don’t take off to Hauterives, I’ll die of boredom. I really like listening to the bombs fall. I’m hearing the end of the alert ringing. It lasted one hour and forty-five minutes, we won’t have Mass… too late! 
+
+</p>
+
+
+
+<p>
+
+Yesterday, during the [air raid] alarm, with René, we went to see if we could see the German airplane and we saw it almost above our house; at that moment we heard a bang and a small white snowflake erupted just behind the airplane, it was the DCA [anti-aircraft], then it kept thundering for a quarter of an hour and shrapnel fell on a house next door to us. The Germans behave like barbarians: in Bron, they strafed the Poles next to their airplanes. In Poland, they were unbelievably savage. They tried to destroy all the Catholics and I read in the newspaper that they had killed one hundred and fifty scouts in Bydgoszcz. 
+
+</p>
+
+
+
+<p>
+
+Tuesday, May 14 
+
+</p>
+
+
+
+<p>
+
+With the death of my grandfather, we inherit the house in Hauterives, if the bombing continues, we will take refuge there. What luck! 
+
+</p>
+
+
+
+<p>
+
+Thursday, May 16, 10 o'clock in the evening 
+
+</p>
+
+
+
+<p>
+
+Yesterday was my birthday. As a present, I’ll be signed up for drawing lessons from the ABC school. Today, we still haven’t had an [air raid] alert. For six days we’ve had them all the time. This adds some distraction. 
+
+</p>
+
+
+
+<p>
+
+Friday, May 17, 2:30 
+
+</p>
+
+
+
+<p>
+
+My grandmother, Maman’s mother, is bugging me more and more; the other one, Papa's mother, was very nice and she told me lots of stories. Unfortunately, she is the one who died. Bonne-Maman told me that any idiot could pass their bachot [Baccalaureate]. In parentheses, she didn’t pass hers. She said that because she thinks I'll fail next year. She said it with a little air of superiority, which is absolutely infuriating, especially because she doesn’t even know Latin. 
+
+</p>
+
+
+
+<p>
+
+It’s 3:20 and we still haven’t had an [air raid] alarm today. Ah! that's it. I hear the sirens, but I still don’t hear the DCA [anti-aircraft fire]. I'd like it better if it happened while we were in class. We go down into the cellars with the teachers, some of them make us recite the rosary, others make us recite our Latin declensions, it’s a little less demoralizing, but still a drag. With Edith and Marie-Charlotte , we found a small cellar on the side where we hide to play cards. We like alerts because the time it takes to get out of the cellar, and the time it takes to get back to the classroom makes the morning go by. 
+
+</p>
+
+
+
+<p>
+
+May 24, 6:30 
+
+</p>
+
+
+
+<p>
+
+My legs are killing me because I went to the Palace of the Fair to receive the refugees. The scouts are allowed to miss school to go help refugees. It was in the newspaper. We begin by washing all the floor, it’s exhausting, then we dry with the mop, we spread sawdust, we set the tables for two hundred people, we bring in the refugees, we serve the refugees, we serve them all in two services, we do the dishes, we also eat, after that it’s finished and we leave. I really feel sorry for these poor refugees. Many children are separated from their parents and have no idea where they are. They fled from Belgium, Luxembourg and northern France in such haste and under fire from German machine guns who constantly harassed them. The French are charitable, it’s extraordinary, there are poor people who rob for the refugees, there are some who come every day to help. As for me, I'll go back almost every day. 
+
+</p>
+
+
+
+<p>
+
+Saturday June 1 
+
+</p>
+
+
+
+<p>
+
+This afternoon, we had three [air raid] alarms. The first lasted from noon to 2:15, but didn’t prevent us from having lunch. The second lasted from 2:30 to 3:30 and the third from 4 to 5:30 am. There are people who were unable to have lunch because they were always taken surprise outside by the successive alarms. Mom, who has just returned, told me that Boches bombed Givors, Saint-Rambert-d'Albon, etc… And there are already many dead. I think that tonight we’ll get our turn too. Maybe it is me who will soon receive a bomb on my rikiki [slang for head]. That would be really annoying to die so stupidly at only the age of fifteen. If I had to die, I would rather die bravely as a soldier and for a noble cause for which I would have, of my own will, sacrificed my life. Dying vulgarly, killed by a bomb and at the age of fifteen, just when I’m starting to enjoy life, to understand it, to love it, just when so many desires and goals fill me. Oh no! My God! Pity, not now, not yet. And yet if I could hasten the victory, absolutely, fine, it would be ok, but only if it [my death] was of some use. 
+
+</p>
+
+
+
+<blockquote>
+
+"At the banquet of life, unfortunate invitee 
+
+I appeared one day and I die 
+
+I die and on my tomb where slowly I arrive 
+
+No one will come to shed tears 
+
+</blockquote>
+
+
+
+<p>
+
+Gilbert 
+
+</p>
+
+
+
+<p>
+
+Sunday, June 2 
+
+</p>
+
+
+
+<p>
+
+Tonight we had an alarm that lasted one hour. The DCA hit hard, but I didn’t hear any bombs falling. This morning there was one at 1:30am and we distinctly heard the bombs falling close to home. Bernard and I made fun of it, but Mireille and Mauritius were freaked out, Françoise kept making all of these absurd comments and Mom was in a fierce mood.
+
+</p>
+
+
+
+<p>
+
+Tuesday, June 11, 8:20 
+
+</p>
+
+
+
+<p>
+
+Oh! Those Italian pigs! Those Macaroni bastards! They declared war [on us] yesterday evening. When we learned about it, we were in such a state of exasperation that we would have beaten up anyone… Groups of students formed up and they went in great pomp to tear down the flag of the Italian consulate; they burned it in the street. Some people even roughed up some Italians and ransacked shops; I saw them do it to the Banco di Roma. There were fights just about everywhere, even in my peaceful Saint-Maximin street. 
+
+</p>
+
+
+
+<p>
+
+Friday, June 14, 11:15 
+
+</p>
+
+
+
+<p>
+
+Things are bad, things are even very bad! Paul <a href="#" class="footnote" id="footnote-5">Reynaud</a> sent out his last appeal to America, an SOS. The Germans are almost to Paris. As for the Macaronis, still nothing. I fear for France. "If the USA does not immediately declare war, extremely serious things will come to pass" said Paul Reynaud. And all of France was glued to the TSF [national radio network], well, at least those who have a radio set, because we don’t. Papa thinks that we make enough noise all by ourselves. All the schools will close on June 15 by an order of the Minister of National Education. 
+
+</p>
+
+
+
+<p>
+
+Thursday, June 20 
+
+</p>
+
+
+
+<p>
+
+What events since Friday! The Boches took Paris and came farther than Dole. So Sunday afternoon, at 3:00, Maman and Papa decided that we will also run away from the Boches. As for me, I was sick and I was constantly throwing up. Maman packed the trunks at full speed, she filled them with provisions and stuffed everything into the car, on the top of the car and on the racks of the bicycles, because we needed to leave like that: in the car, Maman and me in front, Bernard, Maurice, Françoise and Claude in the back. René left on the moped, Mireille and Madeleine, the maid, by bicycle. We had a rendez-vous at La Roche-de-Glun, at M. Decombe’s house, the godfather of Françoise, 100 kilometers south of Lyon. Monday morning, at 10:00am, Bon-Papa and Bonne-Maman arrived by car. What a cold shower! Then René, arrived at noon, Mireille and Madeleine at 1:00 in the afternoon. At 1:30 we got some information from the TSF and we listened to the speech of Marshall Pétain saying that defeated and invaded France had requested an armistice with the enemy. Bon-Papa ran out of the dining room like a madman, and from a distance, we could hear his sobs. It was impressive. It’s the sole proof of sensitivity that I’ve ever seen him show until now, that’s made me think better of him. All of us began to cry after hearing the death warrant of France and we were no longer able to swallow a single bite of our meal. Marshall Pétain said: “I have tried to cease combat.” Because of the static and our emotion, we didn’t hear very well, we understood: “I have ceased combat.” Maman decided, “It’s no longer worth it to go any further.” But in the evening, we listened to some information and when the speaker said, “violent battles are taking place near Lyon,” we understood our error and the next day, we left again: and I was in the car with my grandparents! We were all in the car and we had a very difficult trip stuck in heavy traffic until Pont-Saint Esprit where the gendarmes stopped us. Maman did a good job at arguing, she debated well because she wanted to go to Sainte-Maxime, to the villa of my grandparents. But the gendarmes said simply:"Nobody gets by." So we changed direction, Maman took the road back the other way, Bon-Papa followed her and we came to Cavil argues. It is where one of my aunts is from and we were well received, we slept where we could and the next day Maman rented a house. I forgot to say that during our trip from La Roche-Glun, we met a lot of trucks of troops going down to the south; on the narrow roads, there were lines of up to three cars. Of course, lots of accidents, for our part, we simply returned in a truck. I forgot to say that when we left Lyon, Papa had a terrible attack. And that, at La Roche, to take the cyclists in his car, Bon-Papa had to leave the trunks of silver, furs, and especially Tom, a dirty mutt he liked very much. Mom has rented an old café-tobacco shop, where we're not doing too badly. Obviously, we sleep two per bed and we do not have running water, but finally we can make do. What’s the most annoying is the toilets which are at the back of the garden and are simply a hole in the ground and two small steps to put your feet on. So, for me, it makes me constipated.
+
+</p>
+
+
+
+<p>
+
+Sunday, June 23
+
+</p>
+
+
+
+<p>
+
+Since we arrived it has been raining.
+
+</p>
+
+
+
+<p>
+
+June 30, 9 o'clock in the morning
+
+</p>
+
+
+
+<p>
+
+That's it. The <a href="#" class="footnote" id="footnote-6">armistice</a> is signed. France has capitulated. When we found out about it, two or three days ago, we were decimated, we couldn’t believe it.
+
+</p>
+
+
+
+<p>
+
+From Denise Domenech-Lallich, <i>Une jeune fille libre: Journal (1939-1944)</i> (Paris: Arènes, 2005), English translation by Chad Denton.
+
+</p>
+
+
+
+</p>
+
+
+
+</div>
+
+
+
+<div id="commentary" style="border-right:2px solid black">
+
+Comment goes here</div>
+
+</body>
+
+</html>
+
+

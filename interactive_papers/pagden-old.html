@@ -1,0 +1,470 @@
+<?php include("/home2/bettybae/public_html/password_protect.php"); ?>
+<html>
+	<head>
+			<link rel="stylesheet" type="text/css" href="interactive.css">
+			<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+			
+	<script>
+
+	$(document).ready(function(){
+		$("a.footnote").click(function(){
+			switch($(this).attr("id").replace("footnote-", "")*1)
+						   
+			
+			/* the part below is where you enter your commentary. 
+			please put all commentary text/code between the single quotes. 
+			Anything you put in between the single quotes functions as html code, 
+			so you can add links and style the text appropriately(if you know how!)*/
+			
+			/* <a href="">This is a link.</a> 
+				You can put whatever page you want to link to, between the double quotes.
+				Any text you put between the two angle bracket sets, ex) This is a link, 
+				will show up as a clickable hyperlink.
+				making the target="_blank" will make the file open in a new tab.
+				
+				
+			   <img src="">(this is an image tag.)
+			   Put the image URL between the double quotes. 
+			   If the image is big, or the link is slow...
+			   1) save the file.
+			   2) upload it to the img folder.
+			   3) Now the image link should be http://bettybae.ncity.net/interactive_papers/img/whateveryourimagefileis.jpg
+			   4) Change the end part, and then paste the link inside the double quotes.
+			   
+			 */			   
+			
+			 {
+			case 1: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/PART_I.png"><br><br>Wordle for the Introduction. This semantic cloud is a compilation of all of the proper nouns used by Pagden in the introduction. The larger the word, the more times it was used.'); break;
+
+			case 2: $("div#commentary").html('<img src="http://www.bostoniano.info/wp-content/uploads/2011/04/P26e1_AT_001_web.jpg"> Titian, <i>Europa</i>'); break;
+			
+			case 3: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/Agenor small.JPG">'); break;
+			
+			case 4: $("div#commentary").html('<img src="http://ap.lanexdev.com/user_images/image/rr/2006/rr1006a.jpg">'); break;
+			
+			case 5: $("div#commentary").html('<img src="http://www.theomegadays.net/Images/Topic%20images/tyre_sidon.jpg">'); break;
+			
+			case 6: $("div#commentary").html('<img src="http://www.theoi.com/image/K1.8Zeus.jpg"> <br>Europa & The Bull, ca. 330-320 BCE (Kunst-historiches Museum, Vienna, Austria)'); break;
+			
+			case 7: $("div#commentary").html('<img src="http://traumwerk.stanford.edu/philolog/Rembrandt%20Europa.jpg"><br>Rembrandt, <i>The Abduction of Europa</i>, 1632 (Getty Museum, 61 x 78 cm)<br><br><br><i>“He moved among the cows, more beautiful than they or other bulls, <br> he strolled spring grasses, white as the snow untouched <br> by southern rains or footprint on the ground,<br> huge, silky muscles at his neck and silvered dewlaps hanging,<br>horns as white as if a sculptor’s hand had cut them out of pearl. <br>And no one feared his look, forehead and eye were gracefully benign… <br>Agenor’s daughter gazed at him in wonder.”</i><br><br>(Ovid, <i>Metamorphoses</i> II.849-59)'); break;
+			
+			case 8: $("div#commentary").html('This website titled <a href="http://traumwerk.stanford.edu/philolog/2005/12/rembrandt_and_ovid_the_abducti.html" target="_blank"><i>Rembrandt and Ovid: The Abduction of Europa, 1632; Metamorphoses II.849-59 and the Myth Tradition</i></a> gives an excellent analysis of the Europa myth and its reception in European history. If you click on this link you will be taken directly to the site.'); break;
+			
+			case 9: $("div#commentary").html('<img src="http://web.clas.ufl.edu/users/kapparis/EC/lactantius-thumb.jpg">Lactantius, <i>Divine Institutes, Book I (Of the False Worship of Gods)</i>, ca. 303-311 CE, excerpt from <i>Chapter 11 Of the origin, life, reign, name and death of Jupiter, and of Saturn and Uranus</i><br><br>By what argument, then, can it be proved that Europa did not sit on the bull, and that Io was not changed into a heifer? Because there is a fixed day in the annals on which the voyage of Isis is celebrated; from which fact we learn that she did not swim across the sea, but sailed over. Therefore they who appear to themselves to be wise because they understand that there cannot be a living and earthly body in heaven, reject the whole story of Ganymede as false, and perceive that the occurrence took place on earth, inasmuch as the matter and the lust itself is earthly. The poets did not therefore invent these transactions, for if they were to do so they would be most worthless; but they added a certain colour to the transactions. For it was not for the purpose of detraction that they said these things, but from a desire to embellish them. Hence men are deceived; especially because, while they think that all these things are feigned by the poets, they worship that of which they are ignorant. For they do not know what is the limit of poetic licence, how far it is allowable to proceed in fiction, since it is the business of the poet with some gracefulness to change and transfer actual occurrences into other representations by oblique transformations. But to feign the whole of that which you relate, that is to be foolish and deceitful rather than to be a poet.'); break;
+			
+			case 10: $("div#commentary").html('<img src="http://upload.wikimedia.org/wikipedia/commons/6/6d/Maerten_van_Heemskerck_-_Panorama_with_the_Abduction_of_Helen_Amidst_the_Wonders_of_the_Ancient_World_-_Walters_37656.jpg"> <br>Maarten van Heemskerck, <i>Panorama with the Abduction of Helen Amidst the Wonders of the Ancient World</i>, 1535 (Walters Art Museum, oil on canvas, 58 × 151 in'); break;
+			
+			case 11: $("div#commentary").html('<a href="http://archive.org/stream/herodotus01hero#page/n29/mode/2up">Herodotus, <i>The Histories</i>, trans. A.D. Godley (Cambridge: Harvard University Press, 1920), book I, 3-5, pp. 5-9. This bilingual Greek and English edition is available on archive.org. If you click on this link you will be taken directly to the source.</a>'); break;
+			
+			case 12: $("div#commentary").html('3. Then (so the story runs) in the second generation after this Alexandrus son of Priam, having heard this tale, was minded to win himself a wife out of Hellas by ravishment ; for he was well persuaded that, as the Greeks had made no reparation, so neither would he. So he carried off Helen. The Greeks first resolved to send messengers demanding that Helen should be restored and atonement made for the rape ; but when this proposal was made, the Trojans pleaded the rape of Medea, and reminded the Greeks that they asked reparation of others, yet had made none themselves, nor given up the plunder at request. <br><br> 4. Thus far it was a matter of mere robbery on both sides. But after this (the Persians say) the Greeks were greatly to blame ; for they invaded Asia before the Persians attacked Europe. " We think," say they, " that it is wrong to carry women off: but to be zealous to avenge the rape is foolish: wise men take no account of such things : for plainly the women would never have been carried away, had not they themselves wished it. <b> We of Asia regarded the rape of our women not at all ; but the Greeks, all for the sake of a Lacedaemonian woman, mustered a great host, came to Asia, and destroyed the power of Priam. Ever since then we have regarded Greeks as our enemies." </b> The Persians claim Asia for their own, and the foreign nations that dwell in it ; Europe and the Greek race they hold to be separate from them. <br> <br> 5. Such is the Persian account of the matter: in their opinion, it was the taking of Troy which began their feud with the Greeks. But the Phoenicians do not tell the same story about lo as the Persians. They say that they did not carry her off to Egypt by force: she had intercourse in Argos with the captain of the ship; then, perceiving herself to be with child, she was ashamed that her parents should know it, and so, lest they should discover her condition, she sailed away with the Phoenicians of her own accord. These are the stories of the Persians and the Phoenicians. For my own part, I will not say that this or that story is true, but I will name him whom I myself know to have done unprovoked wrong to the Greeks, and so go forward with my history, and speak of small and great cities alike. For many states that were once great have now become small: and those that were great in my time were small formerly. Knowing therefore that human prosperity never continues in one stay, I will make mention alike of both kinds. '); break;
+			
+			case 13: $("div#commentary").html('“mythopoeic, adj.” in <i>Oxford English Dictionary</i><br><br>That creates or gives rise to a myth or myths; of, relating to, or characterized by the creation of myths.<br><br>1846, G. Grote <i>Hist. Greece</i> I. i. xvi. 472: The mythopœic fertility of the Greeks.<br><br>1874, A. H. Sayce <i>Princ. Compar. Philol.</i> ix. 376:The mythopœic age is the period of primitive unconscious childhood and barbarism. <br><br>1909, <i>Glasgow Herald</i> 8 Jan. 6/4: Quite unconsciously to himself the mythopoeic, dramatising faculties set to work. <br><br>1947, D. Stauffer in <i>Eng. Inst. Ess.</i> 1947 (1948) 33: His language here approximates Wordsworth at his most philosophically mythopoeic. <br><br> 1993, <i>Daily Tel.</i> 2 Jan. 16/6: These entries are never less than full, but vary in length..: those concerning mythopoeic fish, such as the carp, conger or pike, are naturally more extensive and complex.'); break;
+			
+			case 14: $("div#commentary").html('The following passage is from a later, revised, version of this same essay, Anthony Pagden, “Europe: Conceptualizing a Continent,” in <i>The Idea of Europe: From Antiquity to the European Union</i> ed. Anthony Pagden  (Cambridge: Cambridge University Press, 2002),33-54, here 33-34. <br><br>Revisions have been indicated in boldfaced text.<br><br> <b>The origins of this history are to be found in a fictional but forever compelling story, one of abduction, and of a metamorphisis. It is the story of Europea, </b>daughter of Agenor, king of the city of Tyre on the coast of Sidon. One fine day she was carried off by Zeus, <b>transformed into a white bull. Zeus deposited her, and ravished her, on the shore of the </b> continent <b>that</b> would bear <b>their offspring and</b> her name. This is the myth. <b>As with all myths, however, there is </b>another more mundane version.<b> It </b>was suggested by the Greek writer Herodotus and <b>later</b> seized upon by the early Christian theologian Lactantius, eager to debunk and demystify such unsettling erotic fantasies from the ancient world. In this version <b>Cretan</b> merchants abduct Europa in a ship shaped like a bull and <b>take her to be</b> a bride for their king Asterius. Since the Cretans are <b>what later generations would come to call “Europeans,” </b>and Europa herself an Asian woman, her abduction was taken by all Asians to be an affront. Later the Trojans, also a people of what we now call Asia Minor, seize a (not wholly unwilling) Helen, wife of Menelaus, in revenge. In turn, Menelaus brother, Agamemnon, raises an army, crosses the sea, and begins the most celebrated war in European history. The Persians, Herodotus tells us (and “Persians” is his shorthand for all the peoples of Asia), found this tale of abduction puzzling. “We in Asia,” they say, “regarded the rape of our women not at all,” thus establishing an enduring Asian cultural stereotype, “but the Greeks all for the sake of a Lacedaemonian woman mustered a great host, came to Asia and destroyed the power of Priam. Ever since then we have regarded the Greeks as our enemies.” What in myth had been a divine appropriation becomes in mythopoeic history a tale of the hatred between two continents, a hatred that would burn steadily down the centuries, as the <b>Trojans were succeeded by the Phoenicians, the Phoenicians by the Ottoman Turks, and the Turks by Russians</b>.'); break;
+			
+			case 15: $("div#commentary").html('First used to describe central Greece, by 500 BCE the word Europe had been extended to cover the whole of the Greek mainland. Geographically Europe was always described as if it were a continent, although it is also, significantly, a western peninsula of Asia. The traditional boundary between Europe and Asia was fixed, symbolically, at the Bosporus and, to the east, at the Don River. The first of these imaginary frontiers has remained unchanged, and will remain so, until and unless Turkey enters the European Union. The second began to shift at the end of the 5th century, first to the banks of the Volga, then to the Ob, then to the Ural River and Ural Mountains, until, in the 15th century, the boundary finally came to rest at the Emba River and the Kerch Strait. Appropriately for so ambiguous a place, the origins of Europe are to be found not in geography but in myth. Europa was a woman, "pale and golden-haired," the daughter of Agenor, king of the city of Tyre on the coast of Sidon, in what is now Lebanon. One day while she was sitting by the water, Zeus came out of the sea in the shape of a white bull, "his breath scented with saffron." He carried her out to sea and across the straits that separated two worlds, to Crete, where in the meadows of Gortyn they made love under a huge shady plane tree. As Europa’s home had been in Phoenicia, and the Phoenicians were a people of what later came to be called Asia, Europe had been born out of Asia. As is true of all myths, however, there is another, more mundane version of the story, this one first suggested by the Greek historian Herodotus in the 5th century BCE and attributed by him to the Persians. In this version, the Rape of Europa was an act of revenge for the seizure by Phoenician sailors of Io, the daughter of Inachus, king of Argos. Later on, wrote Herodotus, "some Greeks, whose name the Persians failed to record" they were, in fact, Cretans put into the Phoenician port of Tyre "and carried off the king’s daughter Europa thus giving them tit for tat." The 3rd-century Christian theologian Lactantius provides the Cretans with a bull-shaped ship, to explain away Zeus, and says that Europa was intended as a present for the Cretan king Asterius. This version was taken up centuries later by the Italian poet Boccaccio, who added his own twist to an already overcomplicated story by renaming the Cretan ruler Jove. These mythic abductions continued. The Cretans were "Europeans," and as Europa was an Asian woman, her rape was taken by all Asians to be an affront.'); break;
+			
+			case 16: $("div#commentary").html(''); break;
+			
+			case 17: $("div#commentary").html(''); break;
+			
+			case 18: $("div#commentary").html(''); break;
+			
+			case 19: $("div#commentary").html(''); break;
+			
+			case 20: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/PART_II.png"><br><br>Wordle for part2'); break;
+			
+			case 21: $("div#commentary").html(''); break;
+			
+			case 22: $("div#commentary").html(''); break;
+			
+			case 23: $("div#commentary").html(''); break;
+			
+			case 24: $("div#commentary").html(''); break;
+			
+			case 25: $("div#commentary").html(''); break;
+			
+			case 26: $("div#commentary").html(''); break;
+			
+			case 27: $("div#commentary").html(''); break;
+			
+			case 28: $("div#commentary").html(''); break;
+			
+			case 29: $("div#commentary").html(''); break;
+			
+			case 30: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/PART_III.png"><br><br>Wordle for part3'); break;
+			
+			case 31: $("div#commentary").html(''); break;
+			
+			case 32: $("div#commentary").html(''); break;
+			
+			case 33: $("div#commentary").html(''); break;
+			
+			case 34: $("div#commentary").html(''); break;
+			
+			case 35: $("div#commentary").html(''); break;
+			
+			case 36: $("div#commentary").html(''); break;
+			
+			case 37: $("div#commentary").html(''); break;
+			
+			case 38: $("div#commentary").html(''); break;
+			
+			case 39: $("div#commentary").html(''); break;
+			
+			case 40: $("div#commentary").html('<img src="http://bettybae.ncity.net/interactive_papers/img/PART_IV.png"><br><br>Wordle for part4'); break;
+			
+			case 41: $("div#commentary").html(''); break;
+			
+			case 42: $("div#commentary").html(''); break;
+			
+			case 43: $("div#commentary").html(''); break;
+			
+			case 44: $("div#commentary").html(''); break;
+			
+			case 45: $("div#commentary").html(''); break;
+			
+			case 46: $("div#commentary").html(''); break;
+			
+			case 47: $("div#commentary").html(''); break;
+			
+			case 48: $("div#commentary").html(''); break;
+			
+			case 49: $("div#commentary").html(''); break;
+			
+			case 50: $("div#commentary").html(''); break;
+			
+			case 51: $("div#commentary").html(''); break;
+			
+			case 52: $("div#commentary").html(''); break;
+			
+			case 53: $("div#commentary").html(''); break;
+			
+			case 54: $("div#commentary").html(''); break;
+			
+			case 55: $("div#commentary").html(''); break;
+			
+			case 56: $("div#commentary").html(''); break;
+			
+			case 57: $("div#commentary").html(''); break;
+			
+			case 58: $("div#commentary").html(''); break;
+			
+			case 59: $("div#commentary").html(''); break;
+			
+			case 60: $("div#commentary").html(''); break;
+			
+			case 61: $("div#commentary").html(''); break;
+			
+			case 62: $("div#commentary").html(''); break;
+			
+			case 63: $("div#commentary").html(''); break;
+			
+			case 64: $("div#commentary").html(''); break;
+			
+			case 65: $("div#commentary").html(''); break;
+			
+			case 66: $("div#commentary").html(''); break;
+			
+			case 67: $("div#commentary").html(''); break;
+			
+			case 68: $("div#commentary").html(''); break;
+			
+			case 69: $("div#commentary").html(''); break;
+			
+			case 70: $("div#commentary").html(''); break;
+			
+		}
+		});
+	});
+	</script>
+	
+	
+	
+	<h2>Interactive Papers</h2>
+	<h3>ANTHONY PAGDEN – Prologue: Europe and the World Around</h3>
+	When reading the paper, click the footnotes to show additional information on the side pane.
+	
+	</head>
+
+
+<body>
+
+<!-- below is the code you insert into the text to make a commentary marker you can click on.
+			the number n corresponds to the case n you see above. 
+			
+			<a href="#" class="footnote" id="footnote-n">[n]</a>
+			
+			
+-->
+			
+
+	<div id="paper">
+	
+	
+	<br>
+	<h4><a href="#" class="footnote" id="footnote-1">Introduction</a></h4>
+	<br>
+	
+	
+	<p>
+	It begins with a story, the story of an <a href="#" class="footnote" id="footnote-2">abduction</a>. And a metamorphosis. Europa was the daughter of <a href="#" class="footnote" id="footnote-3">Agenor</a>, king of the city of <a href="#" class="footnote" id="footnote-4">Tyre</a> on the coast of <a href="#" class="footnote" id="footnote-5">Sidon</a>. One fine day she was carried off by Zeus, who was transformed for the occasion into a <a href="#" class="footnote" id="footnote-6">white bull</a>, to bear their offspring on the continent which would also bear her <a href="#" class="footnote" id="footnote-7">name</a>. This is the <a href="#" class="footnote" id="footnote-8">myth</a>. There is, however, as with all myths, another more mundane version, which was suggested by the Greek writer Herodotus and seized upon by the early Christian theologian, <a href="#" class="footnote" id="footnote-9">Lactantius</a>, eager to debunk and demystify such unsettling erotic fantasies from the ancient world. In this version it is Cretan merchants who abduct Europa in a ship shaped like a bull as a bride for their king Asterius. Since the Cretans are Europeans, and Europa herself an Asian woman, her abduction was taken by all Asians to be an affront. Later the Trojans, also a people of what we now call Asia Minor, seize a (not wholly unwilling) <a href="#" class="footnote" id="footnote-10">Helen</a>, wife of Menelaus, in revenge. In turn, Menelaus' brother Agamemnon raises an army, crosses the sea and begins the most celebrated war in European history. The Persians, <a href="#" class="footnote" id="footnote-11">Herodotus</a> tells us-and 'Persians' is his shorthand for all the peoples of Asia-found this tale of abduction puzzling. 'We in Asia', they say, '<a href="#" class="footnote" id="footnote-12">regarded the rape of our women not at all</a>' (thus establishing an enduring Asian cultural stereotype)' but the Greeks all for the sake of a Lacedaemonian woman mustered a great host, came to Asia and destroyed the power of Priam. Ever since then we have regarded the Greeks as our enemies.' What in myth had been a divine appropriation, becomes in <a href="#" class="footnote" id="footnote-13">mythopoeic</a> history a story of the hatred between two continents, a hatred which would burn steadily down the centuries, as the Ottoman Turks replaced the Phoenicians and the Russians replaced the Ottomans.<a href="#" class="footnote" id="footnote-14">[Revision 1]</a> <a href="#" class="footnote" id="footnote-15">[Revision 2]</a></h4>
+	</p>
+	
+	
+	<p>
+	But no myth is as simple as that. Most myths are tales of metamorphoses where everything is not merely not what it seems, but is also frequently its very opposite. For fleeing from the ruins of Troy, with his father Anchises on his back, and leading his son Ascanius by his hand, comes Aeneas, who, years later, will land on the shores of Latium, and found the city and the state of Rome. And it is Rome which will be the true creator of 'Europe'. Europe, which will fashion itself for generations in opposition to Asia, thus owes to Asia its historical origins. This sense of double ambiguity, furthermore, survives even the collapse of the political structures of the Graeco-Roman world and the dominance of Graeco-Roman origin myths. For Christianity, which was to provide Europe with much of its subsequent sense of both internal cohesion and its relationship with the rest of the world, was also in its beginnings an Asian religion. In an attempt to secure the glory of Christ's apostolate, and of the overseas mission, exclusively for Europe, the English propagandist for the settlement of America, Samuel Purchas, wrote in 1625: 'Jesus Christ, who is the way the truth and the life, has long since given the Bill of Divorce to ingrateful Asia where he was born and of Africa the place of his flight and refuge, and has become almost wholly European.' 'Almost wholly', however, for not even Purchas could entirely discount the continuing existence of the Greek and Russian churches, who refused either fully to submit to the authority of the papacy or, as the English fitfully hoped, convert to Protestantism. The fact that the undeniably Christian adherents of Greek orthodoxy had for long been under Ottoman rule, and thus fully absorbed into Asia, remained an additional reminder of the alien origin of Christianity. Thus an abducted Asian woman gave Europe her name; a vagrant Asian exile gave Europe its political and finally its cultural identity; and an Asian prophet gave Europe its religion.
+	</p> 
+
+
+	<p>
+	Christianity also brought in its train the need to adopt a Judaic account of the creation, and in particular a Judaic account of the origins of the various races of man. If the biblical narrative was to be believed, then all mankind had to have a common ancestor first in Adam, then in Noah. And in the era after the flood all the world had to have been repeopled by one of Noah's sons. Ever since St Jerome translated the Bible into Latin in the fourth century eE, J aphet has been taken to be the progenitor of the races of Europe, Shem those of Asia, and Ham of Africa. Jerome's rendering of Genesis 9: 27, God 'shall enlarge Japhet and he shall dwell in the tents of Shem', was taken to mean that Japhet would produce more offspring than his brothers and that, one day, his progeny would come to conquer Asia, just as they would inherit from the Hebrews the mantle of the true religion. As Hegel was later to observe, Europe was 'the centre and end' of History, but History had begun in Asia: 'characteristically the Orient quarter of the globe-the region of origination'. The course of civilization, like that of empire and the sun itself, moves inexorably from east to west. 
+	</p>
+
+
+	<p>
+	In the beginning, however, the world had been divided not into two, but three. These were Europe, Asia, and 'Libya', as Africa was generally called: although as Herodotus, the first to travel well beyond the limits of his own home and who revelled in the oddities of the behaviour of those he found there, complained with characteristic Greek misogyny, he could not conceive 'why three names, and women's names at that, should have been given to a tract which is in reality one'. For most Greeks the difference between what they called Europe-by which they meant frequently if not consistently Hellas, the lands around the Aegean sea-and Asia or Africa would remain, as it had been for Aeschylus, one not only of climate and disposition, but also of race (ethnos). Herodotus, however, had understood that 'Europe' had no natural frontiers, and that, as most subsequent cosmopolitans came to realize through experience, cultures are never so incommensurable as their members often like to suppose. If 'Europe' had, or came to acquire, an identity as a place, it was always one which lived in the uneasy realization that not only were Europe's origins non-European, but that no one could establish with any precision where Europe stopped and Asia and Africa began. 
+	</p>
+	
+	
+	<p>
+	These predominantly conceptual divisions between the continents are perhaps best understood in visual terms. The first surviving maps are very late: they date from the eleventh century. But they still show the world very firmly divided into three segments, with Asia as progenitor, on the top, Europe and Africa beneath. These so-called 'TO' maps (named from the stylized T -form of the waters separating the continents and the ocean surrounding the entire world) are depictions of lineage as much as they are of space. Here each segment of the globe is ascribed to its founding father with no regard to size or relative position. What matters is not where, but who we are. Until the sixteenth century maps served this, rather than any other function. They showed not so much our place upon the surface of the planet, as our relationship as races to one another. It was only with the advent of oceanic navigation that cartography was transformed from the representation of mythic into real geographic space. Europe, however, could never be located at the centre of the world as China was for so many Chinese geographers. Its origins in Asia, and the fact that no educated person since the Greeks had seriously doubted that the world was a sphere, made that impossible. 
+	</p>
+	
+	
+	<br>
+    <h4>A Continent and its Peoples<a href="#" class="footnote" id="footnote-20">[20]</a> </h4>
+    <br>
+    
+    
+    <p>
+    But if Europe the land mass could not be said to be at the centre of the world, and if, as Herodotus had noticed, its borders with Asia and Africa are at best indistinct, it could still be placed at the centre of some other conceptualization of the environment. For the Greeks and their Roman heirs the means of establishing a relationship between them and the rest of humanity rested upon a complex theory of climate and physical environment. This claimed that the northern parts of the world were inhabited by peoples whose inhospitable climates had made them brave and warlike, but also uncouth, unthinking, and-to use the Latinized term which will become central to all modes of European self-fashioning-'uncivilized'. Those who lived in the south-the Asians-were, by contrast, quick-witted, intelligent; but also, lethargic, slow to act, and ultimately corrupt-a claim which, in time, was to become another enduring stereotype of the 'Oriental'. Europeans, which at this time meant only the peoples of the Mediterranean, living as they do midway between these extremes, are the mean. This conception of Europe, much modified it is true, but still insistent on the radical distinction between north and south, retained its imaginative force until the nineteenth century. Even Hegel, writing in the I830s, and writing very much from the viewpoint of an intellectually and culturally emergent north, could still speak confidently of the Mediterranean as the 'uniting element' of the 'three quarters of the globe' and 'the centre of World-History'. (He had already relegated America firmly to the domain of the future, 'where in the ages that lie before us, the burden of the World's History shall reveal itself'.) 
+    </p>
+    
+
+	<p>
+	'Europe', wrote the first-century Greek geographer Strabo, in the earliest surviving attempt to demonstrate and explain the continent's perception of its superiority over all others, 'is both varied in form and admirably adapted by nature for the development of excellence in men and governments.' The two instincts in man, the peaceable (which Strabo significantly called the agricultural) and the warlike, live in Europe side by side, and 'the one that is peace-loving is more numerous and thus keeps control over the whole body'. In Strabo's account the Greek dialectic between the world of nature (physis) and that of men (nomos, a term which relates to law, but which we would translate 'culture') has been resolved in Europe, and only in Europe. Because of this harmony Europe becomes, in another image which has survived unbroken to this day, the home of liberty and of true government. The Greeks, Herodotus tells us, are the most free of peoples, because, unlike the Asians, they are subject not to the will of an individual, but only to the law. European society might have had many forms of government, some of them decidedly less liberal than others; but, centuries later, Voltaire was echoing an enduring commonplace when he claimed that the continent constituted a 'kind of great republic divided into several states', all of which were united in having 'the same principle of public law and politics, unknown in other parts of the world'. Most of Europe, as Montesquieu had remarked (he was a little uncertain about Spain), is ruled by 'custom', les maurs. Asia, and still darker regions of Africa and America, is ruled by despots. The rule of law, restraint through custom, rather than will, was responsible for the fashioning of societies which provided a space for individual human action, while at the same time ensuring that that action was rarely capable of reducing society to a state of simple anarchy. From this we will see the descent of the notion that all human improvement depends upon conflict; that human beings are, by their nature, competitive creatures; and that only those societies which know how to harness what the German philosopher Immanuel Kant in the late eighteenth century called man's 'unsocial sociability', instead of attempting to suppress it, will flourish. As Machiavelli noted, the power of the Roman Republic had derived not (as so many had supposed) from the exercise of a common will, but precisely from the opposition between the Senate and the plebeians. And, like Herodotus, Machiavelli also believed that the excellence of Europeans in war was due to the fact that, whereas the peoples of Asia and Africa lived largely under princely rule, in Europe 'although there have been some kingdoms, there have been many republics'. There was, too, from the beginning the conviction, which the modern democratic societies of the West have inherited, that this vision of the world was, in the long run-if not always in the short-suitable for all peoples everywhere, and that its cultural power was irresistible. 
+	</p>
+	
+	
+	<p>
+	How it should have come about that the highly chauvinist Greeks should have been able to speak of themselves as members of a larger grouping of peoples, which must have included non-Greek speakers and thus, in the Greek understanding of the term 'barbarians', it is probably impossible to determine. The answer may lie, as Strabo suggests, in the fact that Europe could provide for itself all the food, the metals, and the human resources for its defence: but only Europe as a continent, criss-crossed by trade routes from east to west, could do this, and never one alone of the many disparate peoples of the Mediterranean. Because life was so difficult for each of them individually, they could only survive, in particular when confronted by the menace of 'Asia', together. Europeans were therefore forced into political unions, the symmachiai, and sympoliteiai-such as the Achaean League which dominated the Mediterranean world in the second and first centuries BCE and on which James Madison was to model the future United States of America-and compelled to develop the great commercial networks which were to become the basis of their future expansion far beyond the limits of Europe itself. This combination of strength and dependency made the recognition of a shared political culture difficult to withhold. 
+	</p>
+	
+	
+	<br>
+	<h4>The Cultural Inheritance<a href="#" class="footnote" id="footnote-30">[30]</a> </h4>
+	<br>
+	
+	
+	<p>
+	This political culture was also centred upon a unique form of life: the city. of course, as in most other civilizations, the vast majority of the populations of Europe actually lived and worked in the countryside until well into the nineteenth century. It is also true that for most of the rural peoples of Europe and the illiterate majority in the cities themselves, identity was a question of attachment to micro-communities: the parish, the village, the guild, sometimes the county, the pays, or what the Castilians aptly called the patria chica, the 'small homeland', only rarely the nation, and never, one suspects, such an abstract cultural grouping as 'Europe'. But for the literate, intellectual elites who had far more in common with their similar groups from other nations than they did with their own peasantry, the spaces beyond the city walls were largely invisible, until they became sentimentalized in the mid-eighteenth century. What Voltaire mockingly called 'the supposed savages of America' were in his view indistinguishable from those savages one met every day in the countryside, 'living in huts with their mates and a few animals ceaselessly exposed to all the intemperance of the seasons'. 
+	</p>
+
+
+	<p>
+	Despite its dependence upon agriculture, despite the real distribution of its populations, Europe, as a collection of social and political groups with a shared and historically determined culture, was conceived as overwhelmingly urban. Our entire political and social vocabulary derives from this fact. ‘Politics’ and ‘polity’ have their root in the Greek term polis. Similarly ‘civil’, ‘civility’, ‘civilization’ have their origins in the Latin word— civitas—for the same spatial, political, and cultural entity. Both polis and civitas became, in time, abstract nouns, sometimes translatable as 'the state', or the 'commonwealth', and definable in abstract terms. Originally, however, they had described the urban space itself, and a close association between urban ways of life and true 'civility' persist to this day. Cities were, of course, by no means unique to Europe. Like all else that defines European culture, these, too, had originated in Asia. But only with the rise of Athens after the sixth century did the association between an urban environment and a particular way of life begin to emerge. Man—and in this respect Greek thought was dismally, cruelly sexist-man, said Aristotle, was zoon politikon—quite literally an animal 'made for life in the polis'. For civility was not merely the best attainable existence. It was what the Greeks called 'the good life', the only life in which it was possible for man to achieve his ends as a man, to achieve that elusive goal which Aristotle termed eudaimonia, his Latin, Christian translators, 'blessedness' (beatitudo), and later writers rendered as 'happiness' or by the clumsy term employed by many modern philosophers, 'human flourishing'. 
+	</p>
+
+	
+	<p>
+	True politeiai were, furthermore, like the persons who inhabited them, autonomous entities. They were places of autarkeia, or self-sufficiency, which for the Stoics was the first among the virtues. This is also the moral force behind Strabo's claim that Europe was, unlike Asia, 'self-sufficient', for the ability to provide for one's own material needs suggests a high degree of personal autonomy also. Little wonder then, that for Aristotle, there could be no life beyond the limits of the city, but that of 'beasts and Gods'. Because humans were distinct from both beasts and Gods in being guided by rules, by laws and customs, the city was also the source of law. Those who lived within it had to abide by its rules. Beyond there was the wilderness which later writers would describe as 'the state of nature'. All humans began in this condition and all humans are constantly threatened by it. In the Greek world-view, and in the conceptions of generations of Europeans, to live in the state of nature, to live like a 'barbarian', or a 'savage' meant living as something less than human. 
+	</p>
+	
+	
+	<p>
+	The polis was, in this way a bounded space. But it was also conceived as a community which had the power to transform all those who entered it. (Aristotle, to whom we owe much of what we now know about the place of the polis in Greek life, although he celebrated the city of Athens and wrote her political history, was himself an outsider by birth.) So long as you were outside you were a barbarian. Once inside, however, you would in time become, 'civilized'. Once inside you became that most precious of things, a 'citizen', that is, a member of the civitas. 
+	</p>
+	
+	
+	<p>
+	This identification of a distinctive European communal life with a specific environment reached its peak with the effective domination of the whole of what we now call Europe, and much of Asia also, by the greatest city of them all: Rome. Like the Greek cities to which it was heir, Rome too was the source of law, the place of custom, mores, which in the poet Virgil's punning vision was now encircled and protected by its massive walls (moenia). And, even more than the Greek city-states, Rome welcomed outsiders within its walls. This, at a time when this particular civitas offered stability, security, and the access to world power, proved to be enormously attractive. As James Wilson observed in 1790, as he mused, prophetically upon the possible future of the United States as the new Rome in the West, 'it might be said, not that the Romans extended themselves over the whole globe, but that the inhabitants of the globe poured themselves upon the Romans'. 
+	</p>
+	
+	
+	<p>
+	It is, therefore, unsurprising that by the first century CE this 'Roman Empire' which was merely an extension in space of the city of Rome itself, the poet Horace's 'Prince among Cities' (Princeps urbium), had come to be identified simply with 'the world', the orbis terrarum. The Roman historian Livy makes Romulus express the wish, on founding the city of Rome that 'my Rome shall be the head of the world' and after the establishment ;f the Emperor Augustus' new regime in 27 BCE these imperial longings became formally expansionist to the point where Rome was transformed into a 'world state', bounded in Virgil's words only by Oceanus. This did not mean that the Romans ignored the actual existence of the rest of the globe. Indeed they possessed a lively and sophisticated ethnographical curiosity in the peoples who inhabited the lands beyond the frontiers of the empire. It was that these other worlds, the Syrians, for instance or the Chinese, had no separate identity as communities—much less as political powers—and that, in the nature of things, they would one day be absorbed into the world itself as the Romans conceived it. When in the second century, the Emperor Antoninus Pius assumed the title 'Lord of all the World', dominus totius orbis, he was merely giving legal expression to a long-held Roman belief, that, whether those who lived beyond their borders recognized it or not the political realm of Rome and the human genus had been made one. 'The Roman people, or rather, I say, the human race', declared the Emperor Caligula with characteristic directness. 
+	</p>
+	
+	
+	<p>
+	But crucially, Rome was not only a political realm, it was also the embodiment of the Stoic belief in the possibility of a single law for all humanity. If the Greeks had given to Europe the philosophy and the mathematics which had made its subsequent scientific development possible, it was the Romans who gave it its legislative habits. And although, as we have seen, the concept of Europeans as law-governed peoples originated in Greece, it was the Romans who elevated the law to the place it still holds today, as the sole guarantor of the continuity of 'civilization', however we choose to define that emotive term. Much of this was swept away during the Gothic invasions which followed the collapse of the Roman Empire and, in the outer fringes of the empire Germanic customary law came t~ replace Roman law:. But this law remained, and remains, the single most unifying feature of the continent. Edmund Burke, good European that he was, offered an image of a world of independent states united as a common culture, based upon 'the old Gothic customary [law] ... digested into system and disciplined by the Roman law', in every part of which it would be possible for a European to feel at home. For this reason the creation of a single legislative order for the whole of Europe remained an ambition of the most powerful of Europe's rulers from the Emperor Justinian in the sixth century, through Philip II of Spain and Louis XIV to Napoleon and, in somewhat muted form, the European Court of Justice. 
+	</p>
+	
+	
+	<p>
+	After the triumph of Christianity, ancient Greek and Roman notions of exclusivity were further enforced by the Christian insistence upon the uniqueness both of the Gospels and of the Church as a source of moral and scientific authority. Custom now, in Lactantius' words had been 'made congruent with religion'. Christianity was thought of as spatially coextensive with the Roman Empire. The world, the orbis terrarum, thus became, in terms of the translation effected by Pope Leo the Great in the fifth century the orbis Christianus, or, as it would be called in the European vernaculars, simply 'Christendom'. As late as I76I, such a relatively hostile witness as Jean-Jacques Rousseau conceded that 'Europe, even now, is indebted more to Christianity than to any other influence for the union ... which survives among her members' . It was a union he abhorred, but from which he could never quite escape. 
+	</p>
+	
+	
+	<p>
+	The scattered, diverse, and plural cultures which had grown up in the ancient world and constituted what we now call Europe, shared, therefore a single identity as so many places of 'human flourishing', bound together by a common system of law. When they gradually converted to Christianity they acquired a common religion and a common cult. They also shared a common language: Latin. Although, after the fourth century, Roman institutions, Roman architecture, Roman literature all gradually lost their power to unite Europe in a common culture, and the concept of a single body of citizens vanished altogether, Latin remained both as the language of the Church-it still does-and of the learned elites of Europe well into the eighteenth century. As the Italian Republican Carlo Cattaneo noted in I835, Europe possessed four unifying features: the power of the former imperial authority, the Roman Law, Christianity, and the Latin language. 
+	</p>
+	
+	
+	<p>
+	Latin, however, was almost wholly a written language, and even then it was largely confined to the clergy and the lay intelligentsia. Few could, or did, actually speak it. Even the professorate, who were bound by statute in most European universities to deliver their lectures in Latin, in fact spoke for the most part in a curious hybrid version of the language and when excited frequently lapsed for long periods into the vernacular. Diplomatic Latin also became restricted after the 1520s to polite formulas, and writers on the increasingly important science of diplomacy such as Ottaviano Maggi stressed the importance of living languages-although in his De Legato of 1566 he did so in Latin. Most of educated Europe before the eighteenth century was multilingual. Rulers, such as the Holy Roman Emperors ruled over peoples speaking a bewildering number of languages. Some of these—Breton, Provençal, Aragonese, Wallon, Piedmontese—are now only minority tongues for long made subservient to a national vernacular. But throughout most of the early modern period these were the dominant, and in some cases, even the official languages of the regions in which they were spoken. Making oneself understood as one passed from one territory to another was of crucial importance. The Emperor Maximilian, who claimed to command no less than seven languages, had himself depicted in the act of mediating between rebellious factions among his multilingual troops. Since, however, few could hope to speak all the major languages of Europe, most educated Europeans shared the conviction that there should exist a spoken tongue which, if not as universal as Latin had once been, should also be widely understood. In the sixteenth century this became Italian, the language in which Dante two centuries before had, in a self-conscious break with tradition, decided to write his great poem. Italian was the language of literature and as such as familiar to the learned elite as English is today. Montaigne learned Italian-although his father had brought him up in an entirely Latin-speaking household-and when he crossed the Alps, he changed the language of his journal from French to Italian. On returning through the Mont Cenis pass he noted-in French-'here French is spoken, so I leave this foreign language in which I feel competent but ill-grounded'. By the late seventeenth century, because of Louis XIV's effective political domination of mainland Europe, French had become the language of diplomacy and the courts, and the language in which educated Germans, such as Leibniz, wrote when they were not still writing in Latin, or, in Leibniz's case struggling to devise a 'universal system of characters' capable of 'expressing all our thoughts be we Frenchmen or Assyrians'. French remained dominant until the end of the eighteenth century. 
+	</p>
+	
+	
+	<br>
+	<h4>Frontiers and Boundaries<a href="#" class="footnote" id="footnote-40">[40]</a> </h4>
+	<br>
+
+
+	<p>
+	Despite the religious, cultural, and linguistic unity which they had given to the continent, neither the Roman Empire nor Christendom were, of course, identical with 'Europe'. Much of the Roman Empire lay in Asia and in North Africa. Not only had Christianity begun as an Asian religion, but some of the first Christian churches had been established on the North African littoral. After the fall of Rome, however, and the attempt under Charlemagne to rebuild the empire in the west, the notion of 'the world' shrank until it covered little more than what is today continental Europe. Charlemagne, although frequently claiming some kind of world sovereignty, also called himself pater europae—'the father of the Europeans'- and the Emperor Charles V who in the early sixteenth century came closer than any ruler before or since to uniting Europe under one sovereign, was addressed as totius europae dominus—'lord of all Europe', an obvious allusion to Antoninus Pius' claim to be dominus totius orbis. 
+	</p>
+
+
+	<p>
+	The shrinking of the frontiers in this way gradually forced upon the European consciousness a greater sense of the boundaries which lay between them and the rest of the world. Europe was the place of civility, of free men living in secure urban communities under the rule of law. The rest served out their day under tyrannies governed according to the caprice of individual rulers, or in nomadic or semi-nomadic groups never far from the primordial 'state of nature'. By the late seventeenth century this sense of exceptionality had found expression in a theory of stages in human development. In this universal narrative, all human societies begin as hunter-gatherers. They then become pastoralists, less mobile than their predecessors but still, as Montesquieu phrased it 'unable to unite'. Finally they invent agriculture and this, in time, transforms them into city dwellers and traders, into modern, civilized, social beings. All the peoples on the globe were bound to pass through each of these stages in succession. Only the Europeans had reached the final stage, that of 'commercial society', although it was generally recognized that some others, such as the Turks and the Chinese, were clearly not far behind.
+	</p>
+	
+	
+	<p>
+	For all this self-confidence, however, 'Europe' was, and always had been, a highly unstable term. Until the sixteenth and seventeenth centuries the boundaries between its various nations were at best indistinct. Its northern and southern limits were vague. Only the Atlantic and the Mediterranean provided obvious frontiers. For the Greeks, Europe had sometimes been only the area in which the Greeks lived, a vaguely defined region which shaded into what was once Yugoslavia in the north and is still Turkey in the east. For most, however, it had a larger, more indeterminate geographical significance, being seen as the lands in the West, whose outer limit, the point at which they met the all-encircling Oceanos, were still unknown. Beyond Europe lay Asia and Africa. Africa south of the Atlas mountains was dark and unimaginable; it remained so, despite the Portuguese exploration and settlement of large areas of the western shores, until the nineteenth century. Only the north coast, which had once been part of the Roman Empire and from the fifteenth century was the home of 'barbary' pirates and the focus of disastrous crusading ambitions by the Portuguese and the Spaniards, was terra cognita. North Africa, however, was a frontier region where Berber states and Ottoman client rulers posed a constant threat to the settled places of Christendom until the extinction of Turkish hegemony in the Mediterranean in the late seventeenth century. All along the southern coast of Italy and Spain were strings of fortifications to guard local populations against the continual threat of Islamic incursions. These might be brief, but they could also be deadly. When in 1544 François I allowed the Turkish fleet to winter at Toulon, he was not merely giving assistance to the enemies of Christ (and, more to the point, of the Emperor Charles V) he was dissolving a centuries old antagonism. He was allowing Asia into Europe. 
+	</p>
+	
+	
+	<p>
+	And if Europe's southern frontiers were in this way indeterminate, her eastern ones were forever undecided. For poised between eastern Europe and the recognizable Orient was the unsettling presence of Russia. Russia, sometimes friend, more frequently foe, threw into occasionally stark relief the fact that Europe was a culture, a shared way of life, rather than a place. Russia had many of the features of a European society, and it was undeniably Christian. Yet in its vast size, in the fact that so much of it had, for so long, been ruled by nomadic peoples who were clearly not European, it also lay beyond the formal limits of Romanized 'civilization'. While it thus remained stubbornly an oriental despotism, Russia remained firmly within Asia, the backward barbaric empire of the steppes. But once, in the eighteenth century, its rulers took to wearing silk brocade and conversing in French it became inescapably Europeanized. In their ambition to subjugate Europe, as Rousseau observed, the Russians had themselves been subjugated. Peter the Great, the first of the tsars to 'modernize' (which meant 'Europeanize') the Russian Empire was described by Montesquieu as 'having given the manners of Europe to a European power'. His successor the Empress Catherine the Great declared at the beginning of the reforming constitutional code she had devised-the Nakaz—'Russia is a European Power'. (Catherine herself, however, was German born and French educated and Russian only by marriage.) But if the Russia of Peter and Catherine was 'in', as far as the rest of Europe was concerned, it was only ever partially so. Frederick the Great of Prussia was not alone in denying the empire of the tsars any lasting place among what he described significantly as 'the civilized nations of Europe'. When seen in this way from the heartlands of Europe, Russia could appear distinctly 'other'. When set, however, against the image of the true Orient, she appeared, if only fleetingly, European. Edmund Burke's angry response to William Pitt's proposal during the Ochakov crisis of 1791 to send British troops to help the Sultan resist the Tsar was: 'What have these worse than savages to do with the powers of Europe, but to spread war, devastation and pestilence among them?' Russia, if only briefly, had thus joined the 'powers of Europe'. Because it reached deep into Asia, Russia could only ever be in this way half civilized, half barbarian. As Napoleon, who should perhaps have been more cautious, declared in November 1815, Russia had 'the rare advantage', from the point of view of a world conqueror, of having 'a civilized government and barbarian peoples'. 
+	</p>
+	
+	
+	<p>
+	Because of this ambivalence, which survives to this day, the 'official' frontier to the east, always in any case a faintly absurd notion, was forever on the move. It advanced steadily from the Don, where it had been fixed for a thousand years, to the banks of the Volga at the end of the fifteenth century, to the Ob in the sixteenth, to the Ural river and the Ural mountains in the nineteenth, and finally to the river Emba and the Kerch straits in the twentieth. Despite this juggling with geography, and the literalness with which geographers from Fra Mauro in the 1450S to the All-Union Geographical Society in the I950S had treated what was in fact a cultural frontier, despite Catherine's efforts, and the absorption in the nineteenth century of the Romanovs into the families of the crowned heads of Europe, Russia has only ever been incorporated into Europe imperfectly. 
+	</p>
+	
+	
+	<p>
+	Russia's relationship with the rest of Europe, however, was determined not only by language, codes of dress, and religion, crucial though these have always been in establishing who might, and who might not, count as European. It was determined, too, by a powerful European sense of exceptionality. This made recognition of those who, like the Russians, seemed to share some but not all the features of European culture, highly unstable. For to be exceptional, a culture has also to be whole. No people can be permitted to acquire part of its trappings without also acquiring the laws and customs, the political structures, and the social organization which give meaning to those things. This is why the spectacle of outsiders, be they Russians or later Africans and Indians wearing European clothes and conversing in their own forms of Portuguese or English, was made to seem so risible to so many metropolitan Europeans.
+	</p>
+	
+	
+	<br>
+	<h4>Technologies and their Impact<a href="#" class="footnote" id="footnote-50">[50]</a></h4> 
+	<br>
+	
+	
+	<p>
+	The European sense that Europe was distinct from, and by implication superior to, all the other cultures of the world derived, as we have seen, from the Graeco-Roman sense of the uniqueness of the political cultures of the polis and the civitas. It derived, too, from another ancient conception which was to have lasting consequences for the future history of the continent. In the physics of Aristotle, which was to remain dominant in Europe until the early seventeenth century, nature existed in a state of potentiality, whose actuality could only be realized through purposeful action. This action was in part nature's own. Acorns, as Aristotle said, were potential trees. But trees were also potentially, but not actually, chairs. It required man's art, his techne, to release from the tree its essential 'chairness'. Techne—or as we would say technology—and what in Latin, the other dominant language in our cognitive vocabulary, was called scientia-is the human capacity to transform the world according to human needs. This, for the Greeks, was a form of knowledge (logos). Techne is the abstract from tikto, which means to 'generate' or 'engender'; humans are the teknotes, the genitors; and the tekna are their offspring. Techne was the power to set in motion, a power which none besides humankind and the gods themselves possessed. This power could also be conceived as that exercised by one human group over another. As Michel Foucault once pointed out, what in the Greek Church was called techne technon, and in the Latin ars artium, was the direction of the conscience, and ultimately the government of men. The development of humankind with the polis was in this way a process of fulfilment analogous to the human manipulation of the natural world. 
+	</p>
+	
+	
+	<p>
+	Men were thus encouraged to see in the natural world a design of which they were the final beneficiaries. 'Art itself', as the eighteenth-century Scottish social theorist Adam Ferguson was later to observe, 'is natural to man ... he is destined from the first age of his being to invent and to contrive'. But not precisely all men. For the European sense of superiority, of having been singled out, first by nature, then by God, to play a special role in the history of creation, derived from the conviction that only those who dwelt in the kind of law-governed free urban communities of which 'Europe' was constituted would ever be likely to possess the capacity to harness nature to their purposes. The others, the 'barbarians', ground down by the demands of their rulers, and thwarted in every attempt to express their individual selves, remained forever in unenlightened herds. In Europe the arts were, in the full sense of the term, 'liberal'. And if these, too, had begun in Asia, in Babylon and Egypt, it was only in Europe that their potential had been realized. 'The liberal arts', wrote a complacent Samuel Purchas, 'are more liberal to us, having long since forsaken their seminaries in Asia and Africa'. 
+	</p>
+	
+	
+	<p>
+	It is this, too, which led to the assumption that science would always be superior to simple force. It had, claimed Herodotus, been their skills-their techne—which had permitted the vastly outnumbered Spartans ultimately to defeat the Persians. An enslaved people, such as the Turks-archetypal Asians-were not merely denied freedom of action by their rulers, they were also denied all access to knowledge. Their military success, like those of the Persians before them, had been due in part to their ferocity, in part to the weakness and intellectual poverty of their opponents. Throughout the sixteenth century when successive Christian intellectuals called upon their rulers to bury their differences and mount a crusade against the Turk, the claim was always that European, Christian, science could never fail against Asian ignorance. As the sixteenth-century Spanish humanist Juan Luis Vives phrased it, 'never, in effect, has Asia been able to resist the most mediocre forces in Europe'. And when, beginning in the thirteenth century, Europeans set out to persuade the world of the truth of their religion, they assumed a self-evident association between knowledge and belief. The European capacity to span an open space using an arch was said to have instantly persuaded one Peruvian chieftain of the truth of Christianity. The Jesuits who travelled to China in the late sixteenth century took with them clocks, astrolabes, telescopes, clavichords, Venetian prisms, and suction pumps. If, the argument went, the European God had taught the Europeans how to devise such ingenious things, it followed that the European God must be the true one. The Chinese, however, had other conceptions of the necessary relationship between technology and religious belief, and while grateful for the clocks declined the offer of the gospel. This refusal to accept the obvious led the most famous of the Jesuits, Matteo Ricci, to declare that 'they have no logic' and the Chinese to accuse the missionaries of indulging in 'countless incomprehensible lines of reasoning'. 
+	</p>
+	
+	
+	<p>
+	After Columbus' discovery of America, and the rounding of the Cape of Good Hope—famously declared by Adam Smith to be 'the two greatest and most important events recorded in the history of mankind '—the European belief in the capacity of European science to dominate the world became even more assertive. For both these oceanic journeys had been made possible through the use of the compass and the skill of European navigators and cartographers. Only those whom Purchas described as 'we in the West' had been able to achieve such triumphs. Asians and Africans had been capable of limited navigational feats. But only the Europeans had managed to cross oceans, to settle, and to colonize. Only the Europeans—as Amerigo Vespucci in Johannes Stradanus' engraving of 1589 is just about to do—have civilized peoples from other inferior worlds. It was Europe, here embodied by Vespucci, which had literally drawn back the curtains upon a new world of which neither Africa nor Spain, nor even Europe's own, now sometimes dubious, ancient ancestors had had any knowledge. In Stradanus' fanciful depiction of the first moment of encounter between a European and a Native American, he, Vespucci, is shown with an astrolabe, the emblem of his empowering knowledge, in his hand. She, in recumbent allusion to Vespucci's own image of the continent as an ever available female, is raising herself naked from the long sleep of her ignorance. 
+	</p>
+	
+	
+	<p>
+	From the early sixteenth to the late eighteenth century images of the four continents appeared in the most unlikely places as a reminder both of the newly acquired vision of a vastly enlarged world, and of Europe's triumph over so much of it, a triumph which only the sciences and the arts had made possible. Take one striking, but representative example. On the ceiling of the stairway hall, the Treppenhaus, in the residence built between 1719 and 1744 by the prince-bishops of Würzburg (then members of a princely family in no way associated with transoceanic navigation) the great eighteenth century Venetian artist Giambattista Tiepolo depicted in lavish detail each of the four continents. These are so arranged that no matter where the viewer stands, Asia, Africa, and America can only be seen in relation to Europe. Here, too, Asia is marked by the exotic (the elephant) and the languorous, Africa and America by the barbarous. Europe-the only one of the allegorical female figures to be seated on a throne instead of an animal— is given the attributes of the arts, of music and painting, of science, and of the technology of warfare. Technology had given Europe the domination of the world. Cesare Ripa's lconologia of 1603, a work which provided artists with an easy set of iconographic rules, instructs its readers to depict Europe wearing a crown, 'to show that Europe has always been the leader and queen of the whole world' . Thus an abducted Asian princess had become, as she appears in the r 588 edition of Sebastian Munster's Cosmographia, a queen. 
+	</p>
+
+
+	<p>
+	Europeans believed that they had discovered and subdued the world through science. The stories of the conquest of Mexico and Peru, where vast numbers of men had been vanquished by a handful of adversaries armed with canon, horses, and steel swords, or of the subjugation by Portuguese shipboard cannon of the peoples of the West African coast and southern India, served to further enhance this sense of superiority through technology. 'Natives', so the British fondly imagined, fell down in awe before European firearms, and mistook their owners for gods. H. Rider Haggard's Allan Quartermain—and later Tintin—is able to escape from the clutches of crazed indigenes by predicting, with the help of an almanac, the solar eclipse. The realities of these encounters were certainly otherwise, but even the great critics of the whole European colonial venture in the eighteenth century could not quite shake off their pride in the success of their science. If only, as Diderot lamented, it had not fallen into such criminal hands. 
+	</p>
+	
+	
+	<br>
+	<h4>The Sense of Being European<a href="#" class="footnote" id="footnote-60">[60]</a></h4> 
+	<br>
+
+
+	<p>
+	The ability, whether the consequence of environment or divine will, to control the resources of the natural world, to make them work for the greater good of humankind, had given Europe its assumed superiority among the peoples of the world. This is the origin of the belief, which is still shared by many, that Europe, or 'The West' is exceptional. That the subsequent history of western imperialism has meant that much of the world was, until recently, and the world's economies still are, governed according to rules of European origin, has only helped to reinforce that belief. There can be little doubt, however much we all may now regret the fact, that the West has, for long periods of its recent history, exercised technological and political mastery over much of the rest of the world. It is also likely that the power of European technology derives from the ancient conviction, strengthened by the radical transformation of science in the seventeenth century, that the ability to harness nature is part of what it is to be human. But it should be stressed that the early modern Europeans' sense of their own distinctiveness has its origins in a period when those who thought of themselves as 'European' were still a small group of semi-nomadic peoples clinging to the lands around the Mediterranean basin. 
+	</p>
+	
+	
+	<p>
+	European confidence in the exceptionality of the continent also served to reinforce the sense of being European, at least among the elites, even after the rise of the nation state as the accepted, and enduring, political unit within the continent in the sixteenth and seventeenth centuries. In I623, Francis Bacon could speak confidently-although he did so in Latin-of 'we Europeans'. Cosmopolitanism was predominantly, however, an eighteenth- century objective which linked seventeenth-century ecumenism to the vision of a secularized world of wise men, bound by their common identity as rational beings. 'No citizen of Europe' claimed Burke-ever scathing about England's 'inclination to shrink into her narrow self'' could be altogether an exile in any part of it ... When a man travelled or resided for health, pleasure, business, or necessity from his country, he never felt himself quite abroad'. 
+	</p>
+	
+	
+	<p>
+	Transnational politics came also to occupy a literary space. The 'republic of letters' existed on paper, in a network of correspondence, and in that great unifying enterprise, Diderot and Jean d' Alembert's Encyclopidie, a work which drew its authors from across the whole map of Europe. Leibniz proposed the creation of a 'European academy', and a 'European tribunal'. Countless journals sprang up with 'Europe' in their titles—Gran Giornale de Europa, L'Europe savante, Correo general historico literario y economico de Europa. There was even 'Cosmopolis' itself, an imaginary city from which a large number of books were printed during the eighteenth century. Rousseau's lament-he hated all forms of cosmopolitanism which he attributed to a 'passion for gold' and the 'lust for women' -that 'today there are no longer any Frenchmen, Germans, Spaniards, even Englishmen, whatever one might say, today there are only Europeans' may have been overstated, but it was true enough of the intellectual circles in which he moved.
+	</p>
+	
+	
+	<p>
+	Eighteenth-century century cosmopolitanism, however, was linked both back to a recognition of the very real differences which existed between nations, and forward to a more generous notion of 'humanity', a humanity which embraced the peoples not only of Europe, but of the entire globe. 'The highest purpose of nature', wrote Kant in I784, 'is a universal cosmopolitan existence', which was to be the 'matrix within which all the original capacities of the human race may develop'. Kant's vision, it is true, was loftier than many, but most enlightened Europeans had come to perceive unity in terms of a scale which ran from the nation at one end to the whole of humanity at the other. European success, as Europeans understood it, had brought untold benefits, but it was that very success, and in particular the commercial networks which now sustained it, which made the former isolation of the continent unsustainable. Europeans might still believe that they possessed the key to all human understanding and the technologies that flowed from it, but in so doing they had also acquired an obligation, something few Greeks or Romans had ever recognized, to employ that for the greater good of the larger world. As David Hume once remarked: with regard to Britain he was a citizen of Europe, but with regard to Europe, he was a citizen of the world. The belief that any human group could maintain itself 'disjointed from the community of mankind' was, said Burke, 'an opinion [that] does not deserve refutation as absurd, but pity as insane'. Burke's cosmopolitanism was, of course, based upon a belief in the enduring force of a stable form of government, namely monarchy, a stable religion, and stable laws and customs. He abhorred revolution. But his objectives, and those of the founders of the two great revolutions of the eighteenth century, the American and the French, converged in their conclusions that 'the rights of man' which had been proclaimed in I776 and I789, were not merely the rights of the Americans or the French; they were the rights of humanity at large. By the end of the eighteenth century, as European technology and European trade appeared to have encircled the world, it might seem that Cicero's vision of Rome as the 'republic of all the world' had been realized in ways Cicero could never have imagined. Instead of reducing the world to Rome, Rome had gone out to the world. 
+	</p>
+	
+	
+	<p>
+	It is here, too, that we can find the origins of that capacity for collective self-scrutiny which could, at times, collapse into a bleak self-hatred which is a feature of so much modern European culture, and underpins much of Europe's relationship with the wider world. Recognition that one could belong to something called 'Europe' only as a subgroup of something immeasurably greater which might include peoples and cultures not merely difficult to understand but as yet unknown had already by the second half of the eighteenth century begun to compel a re-evaluation of all that had been done in Europe's name. It is this which allowed Johann Gottfried Herder, for long regarded as the father of German nationalism, to speak at the very end of the eighteenth century for 'the genius of humanity' against 'all those writings which feed the arrogance of the Europeans-already sufficiently overbearing-with claims which are unproven, and manifestly unprovable' . 
+	</p>
+	
+	
+	<br>
+	<h4>The Quest for Peace and Union<a href="#" class="footnote" id="footnote-70">[70]</a></h4> 
+	<br>
+
+
+	<p>
+	European cosmopolitanism, and the nationalism which, paradoxically, was to emerge from it after the conclusion of the Napoleonic wars, must also be seen as perhaps the final phase in the centuries long search for peace through unity. The reason Strabo had given for the excellence of Europe was that there, unlike Asia or Africa, the interests of peace had succeeded in keeping 'control over the whole body'. For if one part of the European identity derived from the recognition and exploitation of human competitiveness, and its control though the rule of law, another was the belief that Europeans held peace to be a greater good than war. In view of the succession of European empires which have followed that of Athens, then of Rome, and of the language of militarism which sustained and sustains most European states, this must seem at best a crazed delusion. But militarism has never had it all its own way. Even the Romans, at least in theory, looked upon war as a means of last resort whose objective was to acquire, not cultural and religious transformation, much less territory, but peace and justice. 'War', as St Augustine told the Roman general Bonifatius in about 4I7, 'should be waged only as a necessity ... For peace is not sought in order to kindle war, but war is waged in order that peace may be secured.' 
+	</p>
+	
+	
+	<p>
+	The Roman Empire itself, and the Christian 'republic' which succeeded it had, in their ways, been conceived as instruments for acquiring peace. What Rome had sought to export had been precisely a way of life which would be guaranteed at all times and all places by the Pax Romana. After the collapse of the Roman Empire, and the progressive enfeeblement of the medieval empires which had grown up out of its remains, Europe relapsed into long periods of internal warfare. In the sixteenth century these struggles, whose origins had been largely dynastic, were fuelled by ideological conflict as Catholics fought Protestants within the same national communities. Prolonged confessional hostilities which were to culminate in the Thirty Years War between 1618 and 1648, and which left most of central Europe in ruins, together with the threat from another Asian empire, the Ottoman Turks, gave rise to a number of more or less improbable schemes for what at the time was known as 'Universal Monarchy'. Although some of these, for instance that of the Neapolitan magus, Tommaso Campanella, were genuinely universal—Campanella was confident that China, Japan, and India would all succumb to European arms as Mexico and Peru had done—most were confined to Europe. All of these projects argued that if Christendom was to be made safe the princes of Europe had to abandon the pursuit of their individual interests to make way for a single world monarchy. The various unions of arms which had, throughout the sixteenth century, been proposed and, on occasions fitfully achieved, had had no lasting success. The princes of Christendom were too many and their interests too diverse. But a universal monarchy ruled by a single prince might. 'I believe', wrote the Piedmontese failed Jesuit Giovanni Botero in 1607, 'that the human race would live most happily if it were all brought under a single prince.' Such a world where one might travel 'with the same language and the same money' would constitute a common patria. It would eliminate the risk, and hence also the crippling cost, of internal war and consequently, by comparison with any existing monarchy, be able to reduce drastically the fiscal burden on its subjects. It would, Botero believed, be a safer, richer, and hence happier, place. None of these imperial ambitions came to anything. But they remained a more serious possibility than many have supposed, serious enough to trouble the sleep of a deeply sceptical David Hume as late as the second half of the eighteenth century. 
+	</p>
+	
+	
+	<p>
+	The 'universal monarchy' projects of the sixteenth and seventeenth century had aroused only fear and hostility, even among those who were their supposed beneficiaries. They had done so because they all involved the triumph of one European state, first Spain and then France, over another. And whereas Rome had exported a common body of law, the conception of a single trans-ethic community-that of citizenship-and had offered to its conquered provinces a common culture, it had always remained a loose federation of quasi-independent societies, which for long periods of time had been governed by emperors and administrators who were themselves neither Roman nor even Italian. The possibility of establishing such a pan-European monarchy perished with Charles V, the last European ruler to possess no obvious national allegiances, who was born in the Low Countries but chose to die in Spain, a man who was said to have spoken Spanish to God, French to his mistress, and German to his horse. After Charles's abdication in r556 the Habsburg Empire divided into two: the empire of Philip Il, which until the early eighteenth century was to remain the Spanish monarchy; and the remains of the Holy Roman Empire, the lands of Germany and east-central Europe. Neither could offer the basis for a truly pan-European state in which no one nation would predominate over another. 
+	</p>
+	
+	
+	<p>
+	After the devastation of much of central Europe during the Thirty Years War and the demise of both the Catholic Church and the Holy Roman Empire as international agencies with any real authority, there emerged a succession of more or less improbable and impractical projects which sought not to rebuild the old imperial systems but to devise something far closer to the leagues of Ancient Greece. Of these, the so-called 'Grand Design' devised in the r620 by the duc de Sully, Henri IV of France's first minister, was probably the earliest and the most grandiose. This involved altering the boundaries of Europe to create fifteen nation states, ruled collectively by a senate composed of sixty members, four from each state, with seats in N antes, Metz, and Cologne. It was also intended to have a standing army and a fleet. 
+	</p>
+	
+	
+	<p>
+	Sully's 'Grand Design' was never more than a dream. A realist and an experienced statesman, he knew full well that the short-term objectives of princes, not to mention the growing sense of national identity among the peoples of all the European states, would prevent any such strategy from ever becoming a reality. Moreover, even Sully, cosmopolitan though he was, could not resist suggesting that any future European meta-state would have to have its centre in, or at least very near, France. In his plan southern and northern Europe were relegated to the political periphery, which was hardly a realistic view to take of the balance of power within Europe in the early seventeenth century. But as a dream it remained a powerful reminder that there existed the possibility, and there had once existed the reality, of an alternative to the persistent antagonism between nation states. In the ninet~enth century, when there was a widespread revaluation of Europe's GothIC past, a number of German Romantics-N ovalis, the Schlegel brothers, Adam Muller, even fitfully Madame de Stael-attempted to revive the idea of an old Germanic Reich as the instrument of European unification. But few Europeans, who were not also 'Goths', were any more eager to see a European federalism, in Muller's words, 'wearing German colours' than they had been to see it in Spanish or French ones. 
+	</p>
+	
+	
+	<p>
+	Such projects can best be understood in the context of a series of designs for 'perpetual peace' which ranged from Emeric Cruce 's Le Nouveau Cynée of 1623, through the Abbe de St-Pierre's Projet pour rendre la paix perpetuelle en Europe of 1712-which Voltaire complained could no more exist among princes 'than it could among elephants and rhinoceroses, or between wolves and dogs' -to perhaps the most influential, and certainly the most compelling, Immanuel Kant's Perpetual Peace of 1795. All of these operated with the notion that peace could only be secured in Europe, and ultimately the world, through some kind of confederacy, as the Ancient Greek Amphictyonic council had been, of independent states, each of which, in the words used by James Madison to urge a similar proposal upon the United States of America, 'retained the character of independent and sovereign states and had equal votes in the federal council'. 
+	</p>
+	
+	
+	<p>
+	In the modern world, commercial and politically and culturally pluralist, only a confederated system of this kind, divided by climate, culture, and language, but united in its economic and political objectives, could be the ground upon which, in Kant's words, 'that of every distinct society depends'. 'In an unregulated world-system', argued Kant, each state must 'expect from any other precisely the same evils which formerly oppressed individual men [in the State of Nature] and forced them into a law-governed civil state.' The only escape from a world where the large, technically skilled, and militarily powerful states were empowered to absorb all others would be a federation of peoples in which every state, even the smallest, could expect to derive its security and its rights not from its own power or its own legal judgement, 'but solely from this great federation from a united power and the law-governed decisions of a united will'. 
+	</p>
+	
+	
+	<p>
+	Europeans are, I suspect, unusual in sharing in this way a sense that it might be possible to belong to something larger than the family, the tribe, the community, or the nation, yet smaller, and more culturally specific, than 'humanity'. The claim that all Chinese maps placed China at the centre of the world is false. There are Chinese maps which, for political and cultural as well as geographical reasons, place Japan at the centre. But there are no Chinese maps or Chinese histories which suggest that Japan and China belong to a single continental grouping. If the Chinese, the Japanese, the Koreans, the Thais now sometimes choose to identify themselves as Asians this is because European notions of ethnicity and the domination of the world economy by European concepts of exchange have compelled them to do so. Similarly the peoples of, say, Uganda and Nigeria-themselves the products of European impositions-are highly conscious of belonging to a continent called 'Africa' largely if not wholly because European colonization, and the marks of European racism, have made it impossible for them to think otherwise. Being African in Africa, or Asian in Asia provides only the loosest cultural or political cohesion, and, at most levels, no cohesion at all. 
+	</p>
+	
+	
+	<p>
+	This is not, of course, to endorse any kind of European exceptionalism. All the peoples of the world are the outcome of the combination, dispersal, and recombination, through warfare and the pursuit of subsistence, of myriad diverse groups of peoples. China, which is larger than Europe, was not inhabited by one ethnic group either. Nor was Assyria, Elam, Urartu, Persia, ancient Mexico, or Inca Peru. But these were ethnic states. They invited (or compelled) the outsiders whom they conquered into their homelands and absorbed them into the dominant ethnic community. What is unusual about 'Europe' is that it possesses an identity as a cultural space, within which there have been and continue to be, frequent political unions, but which has never constituted a single state, much less a single ethnic group. 
+	</p>
+	
+	
+	<p>
+	By the end of the eighteenth century that identity had been firmly established for centuries. But it had never achieved, nor has it yet achieved, lasting political expression. Napoleon, in pursuit of the first European-wide empire to be established since Roman times, would dream consistently of a single continental federation, one which would transform identity into lasting political union, one in which it would be possible to apply to 'the great European family, the American Congress or the Amphictyonic Council of Greece, and what a vision that opens of power, grandeur, happiness and prosperity'. He added, however, that in order to do that one had first to create a Europe of nations. The foundations of European nationalism lie outside the scope of this volume. But it remains something of a paradox that the conditions for unity, which were so heavily dependent upon Europe's evolving relationship with the worlds beyond Europe, should have been in place before each of its individual communities had developed the resources to create states which would be coextensive with the nations of which the continent was composed. Kant's ecumenical vision furthermore could easily be reclaimed by those who found, after the Congress of Vienna, that the new Europe of nations had created a world which was potentially far more perilous than the one which had preceded it. Even Nietzsche, who had no time for Kant, looked forward to the 'destruction of nations'. Modern life, he believed, and the speed of modern communications would soon dissolve the artificial boundaries between the European peoples. It was Nietzsche's 'Good European' and Kant's cosmopolitan citizen- unlikely companions though they may be-who inspired Jean Monnet and Altiero Spinelli and who, however dimly perceived, still drive the search for greater European union. We-we in Europe that is-still await the day when the conflicting forces of nationalism will resolve themselves into a fully integrated federation of states. But if the United States of Europe—a phrase, and the proposals to match it, which begin to crop up from the 1840s—ever comes into being it will be the embodiment of a vision which reaches back nearly three millennia. 
+	</p>
+
+	
+</div>
+
+<div id="commentary" style="border-right:2px solid black">
+Comment goes here</div>
+</body>
+</html>

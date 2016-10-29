@@ -1,0 +1,30 @@
+
+img {
+     max-width: 100%;
+}
+
+p { line-height: 28px; font-size: 14px; }
+		.underline { text-decoration: underline }
+		
+	a:link {color:#585858; text-decoration: none; font-weight: bold; }      /* unvisited link */
+	a:visited {color:#585858; text-decoration: none; font-weight: none; }  /* visited link */
+	a:hover {color:#585858; text-decoration: none; font-weight: none; }  /* mouse over link */
+	a:active {color:#585858; text-decoration: none; font-weight: none; }  /* selected link */
+		
+		
+
+	div#paper { height: 100%; float: left; margin-top: 15px; border-top: 2px solid black; border-left: 2px solid black; border-bottom: 2px solid black; padding: 10px; overflow: auto; background: white; width: 65.8%; } 
+	div#paper p { line-height: 30px; font-size: 15px; text-indent: 0px; line-height: 120%}
+	div#paper h1 { font-size: 15px; line-height: 15px; }
+	div#paper h2 { font-size: 15px; text-align: center }
+	div#commentary { height: 100%; 
+					 float: left; 
+					 margin-top: 15px; 
+					 border-top: 2px solid black; 
+					 border-left: 2px solid black; 
+					 border-bottom: 2px solid black; 
+					 border-right: 2px solid black; 
+					 padding: 10px; overflow: auto; 
+					 background: #EEEEEE; 
+					 width: 28.5%; }
+	

@@ -1,0 +1,421 @@
+<?php include("/home2/bettybae/public_html/password_protect.php"); ?>
+<html>
+	<head>
+			<link rel="stylesheet" type="text/css" href="interactive-old.css">
+			<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+			
+	<script>
+
+	$(document).ready(function(){
+		$("a.footnote").click(function(){
+			switch($(this).attr("id").replace("footnote-", "")*1)
+						   
+			
+			/* the part below is where you enter your commentary. 
+			please put all commentary text/code between the single quotes. 
+			Anything you put in between the single quotes functions as html code, 
+			so you can add links and style the text appropriately(if you know how!)*/
+			
+			/* <a href="" target="_blank">This is a link.</a> 
+				You can put whatever page you want to link to, between the double quotes.
+				Any text you put between the two angle bracket sets, ex) This is a link, 
+				will show up as a clickable hyperlink.
+				target="_blank" attribute - makes the link open in a new tab/window.
+				
+				
+			   <img src="">(this is an image tag.)
+			   Put the image URL between the double quotes. 
+			   If the image is big, or the link is slow...
+			   1) save the file.
+			   2) upload it to the img folder.
+			   3) Now the image link should be http://bettybae.ncity.net/interactive_papers/img/whateveryourimagefileis.jpg
+			   4) Change the end part, and then paste the link inside the double quotes.
+			   
+			 */			   
+			
+			 {
+			case 1: $("div#commentary").html('<p><b>Louis ”Studs” Terkel</b> (1912–2008) was an award-winning author and radio show host.<sup>1</sup><br>He is best known for his oral history on World War II titled <i>The Good War,</i> for which he received the Pulizer Prize for General Non-Fiction in 1985.<sup>2</sup><br>He was born to a Russian Jewish family in 1912, but moved to Chicago in 1922, and later received degrees in Philosophy and Law. He also pursued a career in acting and broadcasting.<sup>3</sup><br>His parents operated a guest house when Terkel was in his teens, which enabled him to meet diverse people and learn how to connect with them.<sup>4</sup><br>During his lifetime, he wrote 12 books based on oral histories about the lives of people during significant historical events, such as the Great Depression and the World War II, and for 45 years, he hosted his own celebrated radio show in Chicago, where he spent nearly all of his life.<sup>5</sup><br>He is often given credit for founding the oral history genre, as his efforts of carefully capturing the emotions and experiences of ordinary Americans have greatly contributed to understanding the history of 20th-century America.<sup>3</sup><br>In 2006, he was awarded the first-ever Dayton Literary Peace Prize for his devotion to preserving history throughout his life.<sup>6</sup><br>Other acclaimed pieces by Terkel include <i>Hard Times: An Oral History of the Great Depression,</i> and <i>Working</i>.<br>Terkel is remembered for his remarkable interviewing skills and for capturing the stories of citizens from diverse backgrounds, ranging from criminals to the elite.<sup>2</sup></p><br><br><p>References<br><br><sup>1</sup> ”Studs Terkel dies,” Chicago Tribune, October 31, 2008,<a href=”http://www.chicagotribune.com/news/local/chi-studs-terkel-dead,0,3592218,full.story”>http://www.chicagotribune.com/news/local/chi-studs-terkel-dead,0,3592218,full.story</a> (accessed May 14, 2014)<br><sup>2</sup> ”Pulitzer winner Terkel dies at 96,” <i>BBC News</i>, October 31, 2008, <a href=”http://news.bbc.co.uk/2/hi/entertainment/7703428.stm”>http://news.bbc.co.uk/2/hi/entertainment/7703428.stm</a> (accessed May 14, 2014)<br><sup>3</sup> ”Studs Terkel,” <i>The Telegraph</i>, November 02, 2008, <a href=”http://www.telegraph.co.uk/news/obituaries/3368301/Studs-Terkel.html”>http://www.telegraph.co.uk/news/obituaries/3368301/Studs-Terkel.html</a> (accessed May 14, 2014)<br><sup>4</sup> ”Storytelling with Studs Terkel,” <i>Chicago Life Magazine</i>, May 28, 2007, <a href=”http://www.chicagolife.net/articles/show/177”><http://www.chicagolife.net/articles/show/177</a> (accessed May 14, 2014)<br><sup>5</sup> ”Studs Terkel, oral historian and radio legend, 96,” <i>National Public Radio</i>, October 31, 2008, <a href=”http://www.npr.org/templates/story/story.php?storyId=96724840>http://www.npr.org/templates/story/story.php?storyId=96724840</a> (accessed May 14, 2014)<br><sup>6</sup> ”Studs Terkel to receive first Dayton literary price,” <i>USA Today</i>, July 19, 2006, <a href=”http://usatoday30.usatoday.com/life/books/news/2006-07-19-terkel_x.htm>http://usatoday30.usatoday.com/life/books/news/2006-07-19-terkel_x.htm</a> (accessed May 14, 2014)</p>'); break;
+
+			case 2: $("div#commentary").html('“oral history n.” in <i>Oxford English Dictionary</i><br><br><b>1. </b>a body of stories about past events passed on by word of mouth; (also) the branch of history that deals with the compilation and study of such recollections, usually through the use of recorded interviews with people having personal knowledge of the past.<br><br>1827, <i>N. Amer. Rev.</i> Apr. 418: The incidents of the separation yet live in the oral history of each tribe.<br><br>1977, <i>Times</i> 16 May 7/7: Oral history..enables the historian to put the questions he wants.<br><br>'); break;
+			
+			case 3: $("div#commentary").html('<img src=” http://ccp.uair.arizona.edu/system/files/imagecache/large_watermark/mckenna/CCP_2009012003009.jpg”><br><br>John Ciardi, 1961 (Rosalie Thorne McKenna Archive, New York, NY)'); break;
+			
+			case 4: $("div#commentary").html('<img src="http://ww2db.com/images/50b6b65bf0932.jpg"><br><br>B-29 Superfortress taking off from Saipan, Dec 1944 (United States Army Air Forces)'); break;
+			
+			case 5: $("div#commentary").html('“cadet, n.” in <i>Oxford English Dictionary</i><br><br><b>1. </b>A student in a military or naval college.<br><br>1788, Ld. Auckland <i>Diary</i> in <i>Corr. </i>(1861) II. 91: An establishment of one hundred young cadets for the army.<br><br><b>2. </b> A boy in an ordinary school who receives military training with or without a view to entering the army. Also <i>attrib.</i>, as <b>cadet corps</b> n. a company of schoolboys who receive such training.<br><br>1873, <i>Programme of Rev. at Charterhouse School</i> 6 Aug.: The young gentlemen (or Charterhouse Cadets) will be drawn up in Line at Open Order on the Cricket Ground.<br><br>'); break;
+			
+			case 6: $("div#commentary").html('Selections about “<b>Curtis LeMay</b>” from Max Hastings, <i>Inferno: The World at War, 1939-1945</i> (2011)<br><br>“Only in 1945 was the offensive dramatically transformed and intensified, first, by establishment of a huge network of bases on the Marianas; second, by large deliveries of aircraft; and finally, by the ascend of Maj. Gen. Curtis LeMay to leadership of the XXI Bomber Command.” (615)<br><br>“LeMay was the architect of the first great fire-raising raid on Tokyo on 9 March 1945. He dispatched 325 aircraft to attack by night at low level – between 6,000 and 9,000 feet. Torrents of incendiaries fell and exploded with their characteristic sharp crackle. Only twelve bombers were lost, most destroyed by updrafts from the blazing city. Forty-two suffered flak damage, but Japanese defences were feeble. A pilot wrote laconically next day: ‘We took off the last night at 1835 and after a dull trip hit the coast of Japan at 0210. Even before we made landfall we could see the fires at Tokyo. We were at 7,800 and there was smoke towering above us. The radar run was perfect and we dropped in an open spot visually. The city was a ‘Dante’s inferno.’ One night fighter made a run on us but we turned into him and lost him.’” (616, from http://b-29.org/) <br><br>“Gen. Lauris Norstad said apologetically to LeMay’s sacked predecessor, Gen. Haywood Hansell, ’LeMay is an operator, the rest of us are planners. That’s all there is to it.’” (617, from Steve Birdsall, <i>Saga of the Superfortress</i>, Sidgwick & Jackson [1981], 143)<br><br>'); break;
+
+			
+			case 7: $("div#commentary").html(''); break;
+			
+			case 8: $("div#commentary").html(''); break;
+			
+			case 9: $("div#commentary").html(''); break;
+			
+			case 10: $("div#commentary").html(''); break;
+			
+			case 11: $("div#commentary").html(''); break;
+			
+			case 12: $("div#commentary").html(''); break;
+			
+			case 13: $("div#commentary").html(''); break;
+			
+			case 14: $("div#commentary").html(''); break;
+			
+			case 15: $("div#commentary").html(''); break;
+			
+			case 16: $("div#commentary").html(''); break;
+			
+			case 17: $("div#commentary").html(''); break;
+			
+			case 18: $("div#commentary").html(''); break;
+			
+			case 19: $("div#commentary").html(''); break;
+			
+			case 20: $("div#commentary").html(''); break;
+			
+			case 21: $("div#commentary").html(''); break;
+			
+			case 22: $("div#commentary").html(''); break;
+			
+			case 23: $("div#commentary").html(''); break;
+			
+			case 24: $("div#commentary").html(''); break;
+			
+			case 25: $("div#commentary").html(''); break;
+			
+			case 26: $("div#commentary").html(''); break;
+			
+			case 27: $("div#commentary").html(''); break;
+			
+			case 28: $("div#commentary").html(''); break;
+			
+			case 29: $("div#commentary").html(''); break;
+			
+			case 30: $("div#commentary").html(''); break;
+			
+			case 31: $("div#commentary").html(''); break;
+			
+			case 32: $("div#commentary").html(''); break;
+			
+			case 33: $("div#commentary").html(''); break;
+			
+			case 34: $("div#commentary").html(''); break;
+			
+			case 35: $("div#commentary").html(''); break;
+			
+			case 36: $("div#commentary").html(''); break;
+			
+			case 37: $("div#commentary").html(''); break;
+			
+			case 38: $("div#commentary").html(''); break;
+			
+			case 39: $("div#commentary").html(''); break;
+			
+			case 40: $("div#commentary").html(''); break;
+			
+			case 41: $("div#commentary").html(''); break;
+			
+			case 42: $("div#commentary").html(''); break;
+			
+			case 43: $("div#commentary").html(''); break;
+			
+			case 44: $("div#commentary").html(''); break;
+			
+			case 45: $("div#commentary").html(''); break;
+			
+			case 46: $("div#commentary").html(''); break;
+			
+			case 47: $("div#commentary").html(''); break;
+			
+			case 48: $("div#commentary").html(''); break;
+			
+			case 49: $("div#commentary").html(''); break;
+			
+			case 50: $("div#commentary").html(''); break;
+			
+			case 51: $("div#commentary").html(''); break;
+			
+			case 52: $("div#commentary").html(''); break;
+			
+			case 53: $("div#commentary").html(''); break;
+			
+			case 54: $("div#commentary").html(''); break;
+			
+			case 55: $("div#commentary").html(''); break;
+			
+			case 56: $("div#commentary").html(''); break;
+			
+			case 57: $("div#commentary").html(''); break;
+			
+			case 58: $("div#commentary").html(''); break;
+			
+			case 59: $("div#commentary").html(''); break;
+			
+			case 60: $("div#commentary").html(''); break;
+			
+			case 61: $("div#commentary").html(''); break;
+			
+			case 62: $("div#commentary").html(''); break;
+			
+			case 63: $("div#commentary").html(''); break;
+			
+			case 64: $("div#commentary").html(''); break;
+			
+			case 65: $("div#commentary").html(''); break;
+			
+			case 66: $("div#commentary").html(''); break;
+			
+			case 67: $("div#commentary").html(''); break;
+			
+			case 68: $("div#commentary").html(''); break;
+			
+			case 69: $("div#commentary").html(''); break;
+			
+			case 70: $("div#commentary").html(''); break;
+			
+		}
+		});
+	});
+	</script>
+	
+	
+	
+	<h2>Interactive Papers</h2>
+	<h3>AMINOFFAnna</h3>
+	When reading the paper, click the footnotes to show additional information on the side pane.
+	
+	</head>
+
+
+<body>
+
+<!-- below is the code you insert into the text to make a commentary marker you can click on.
+			the number n corresponds to the case n you see above. 
+			
+			<a href="#" class="footnote" id="footnote-n">[n]</a>
+			
+			
+-->
+			
+
+	<div id="paper">
+	
+<!--Styling Text
+
+	<i></i> italics
+	<b></b>, or <strong></strong> bold
+	<blockquote></blockquote> blockquotes
+	<h1, 2, 3, 4, 5, 6> These are heading text tags. Use as needed - h2~3 is appropriate for article titles, while h4 is appropriate for sub-titles.
+
+-->	
+	
+	
+	<p><p><a href="#" class="footnote" id="footnote-1"><b>Studs Terkel<b></a></p>
+
+<p>STUDS TERKEL'S <b>"The Good War”</b> is a major work of
+<a href="#" class="footnote" id="footnote-2">oral history</a>, offering us a compelling picture of World
+War II through the voices of men and women who experienced
+it at firsthand. Here, the account of the poet
+<a href="#" class="footnote" id="footnote-3">John Ciardi</a>, who served as an air force gunner in the
+Pacific.</p>
+
+
+<p><i>The Bombers and the Bombed</i></p>
+
+<p>I had no attraction to the military, yet we had to go out and do
+something. I was terribly innocent at twenty-six. I was the tanglefoot
+civilian who did not know what he was doing. I did not want to go in the
+navy. I would not under any circumstances get into a submarine. I didn't
+see any point in being a footslogger, sleeping in the mud.</p>
+<p>I had dreams of being a pilot, so I signed up as an aviation <a href="#" class="footnote" id=”footnote-5">cadet</a>.
+The army decided I was not pilot material. The army was right. They
+sent me to navigation school. I would have come out as a navigator and
+been sent to the Eighth Air Force. As a graduate student, l had signed
+some petitions in favor of the Spanish Loyalists. When I came up for
+graduation from the navigation school, I was classified as a PAF–a
+premature anti-fascist. The Dies Committee had wired in. I did not get
+a commission. A year later, I heard that all forty-four men of my graduating
+class were either KIA or MIA, dead or missing in action.</p>
+<p>When we got to Saipan, I was a gunner on a <a href="#" class="footnote" id=”footnote-4">B-29</a>. It seemed certain
+to me we were not going to survive. We had to fly thirty-five missions.
+The average life of a crew was something between six and eight missions.
+So you simply took the extra pay, took the badges, took relief from dirty
+details. Now pay up.</p>
+<p>There was a way out. Any man who was tired of flying could report
+to the squadron CO and ground himself. He would be put on permanent
+garbage detail. Permanent garbage detail is better than burning to death.
+Yet in all the time we were there, most of a year, only two men in the
+whole squadron put themselves on permanent garbage detail. Not a one
+received any wisecracks from anybody. Everybody knew that if he dared,
+he'd be on that garbage truck with ’em.</p>
+<p>I don't think it was patriotism. I think it was a certain amount of
+pride. The unit was the crew. You belonged to eleven men. You’re trained together, you're bound together. I was once ordered to fly in the
+place of a gunner who had received a shrapnel wound. I dreaded that
+mission. I wanted to fly with my own crew. I didn't know those other
+people. I didn't want to run the risk of dying with strangers.</p>
+<p>I was saved by two more flukes. The first was the Dies Committee.</p>
+<p>We got to Saipan in November of '44, in time to fly the first raids
+over Tokyo. Those were long missions. We were in the air normally
+about fourteen hours. Most of it was over the open Pacific. We had to
+get over the coast, make our bombing run, and then make it back to
+Saipan. We took some rather heavy losses. Sixty-five percent of them, as
+I recall, were due to engine failures. The B-29 tended to catch fire. They
+finally flew the bugs out of this new plane.</p>
+<p>At one time, one of the blisters on our plane was damaged–the
+plexiglass bubble out of which the gunner tracked. There were no spares
+on the island. We sat it out almost all the month of February of '45,
+waiting for a replacement. During that time, we lost a lot of crews. We
+were out surfing, playing in the ocean, spear fishing. I would give myself
+at least a forty percent chance of having been killed in February, except
+for this blister thing. Instead, it turned into a vacation.</p>
+<p>The third time was a pure fluke. I was halfway through the tour of
+missions. I know it was over fourteen. You got an air medal for surviving
+five missions. If you survived eight more, you got another air medal. The
+next one was a DFC. I got two air medals, so I must have had fourteen
+or fifteen missions. I received orders to report to headquarters. The
+colonel in charge of awards and decorations said, "We've run into real
+trouble with our program. We need somebody with combat-crew experience
+who can write. You've taught college English, you've published a
+book. You're now working for me. You're going to take charge of the
+awards and decorations."
+<p>This program was raided by the brass, so that decorations were
+pointless after a while. Anybody up to the grade of a captain, you may
+assume earned it. Anybody from the grade of major up who has a high
+decoration <i>may</i> have earned it, but you don't have to believe it.</p>
+<p>"Co to your squadron," the colonel said, "pick up your gear. We’ll
+keep you on flying pay. You'll have to fly back and forth to Guam to
+report to the board. While you're at it, sew on an extra stripe." I was then
+a staff sergeant. I couldn't make tech for having been shot at, but I did it
+for grinding out words.</p>
+<p>A few missions later, the crew I had been on took a direct hit over
+Tokyo Bay from an unexploded flake shell. It went right through the
+wing gas tank and the plane just blew up, disintegrated in midair. Just
+one of those flukes.</p>
+<p>That's three times I should have been absolutely dead, except for
+flukes.</p>
+<p>I fed sorry for the kids of Vietnam. They couldn't have figured out
+what it was they were fighting for. I knew why I was there. That doesn't
+mean I wasn't scared. I don't know what I would have done in Vietnam.
+I mean, I'm a botch as a killer, as a soldier. But as an American, I felt
+very strongly I did not want to be alive to see the Japanese impose
+surrender terms.</p>
+<p>On the night before a mission, you reviewed the facts. You tried to
+get some sleep. The army is very good at keeping you awake forever
+before you have a long mission. Sleep wouldn't come to you. You get to
+thinking by this time tomorrow you may have burned to death. I used to
+have little routines for kidding myself: Forget it, you died last week.
+You'd get some Dutch courage out of that.</p>
+<p>We were in the terrible business of burning out Japanese towns.
+That meant women and old people, children. One part of me–a surviving
+savage voice–says, I'm sorry we left any of them living. I wish we'd
+finished killing them all. Of course, as soon as rationality overcomes the
+first impulse, you say, Now, come on, this is the human race, let's try to
+be civilized.</p>
+<p>I had to condition myself to be a killer. This was remote control. All
+we did was push buttons. I didn't see anybody we killed. I saw the fires
+we set. The first four and a half months was wasted effort. We lost all
+those crews for nothing. We had been trained to do precision high-altitude
+bombing from thirty-two thousand feet. It was all beautifully
+planned, except we discovered the Siberian jet stream. The winds went
+off all computed bomb tables. We began to get winds at two hundred
+knots, and the bombs simply scattered all over Japan. We were hitting
+nothing and losing planes.</p>
+<p><a href="#" class="footnote" id="footnote-6">Curtis LeMay</a> came in and changed the whole operation. He had
+been head of the Eighth Air Force and was sent over to take on the
+Twentieth. That's the one I was in. He changed tactics. He said, Go in
+at night from five thousand feet, without gunners, just a couple of rear-end
+observers. We’ll save weight on the turrets and on ammunition. The
+Japanese have no fighter resistance at night. They have no radar. We’ll
+drop fire sticks.</p>
+<p>I have some of my strike photos at home. Tokyo looked like one
+leveled bed of ash. The only things standing were some stone buildings.
+If you looked at the photos carefully, you'd see that they were gutted.
+Some of the people jumped into rivers to get away from these fire storms.
+They were packed in so tight to get away from the fire, they suffocated.
+They were so close to one another, they couldn't fall over. It must have
+been horrible.</p>
+<p>I have one image of an early raid in which a Japanese fighter plane
+bored in. I saw his goggled face as he went over the top of our plane. I
+got a burst into him and he was gone. I got a probable for it. After the first raid, nothing came at us from behind. The Japanese lined up across
+the sky and came in to ram. They would all swarm on the B-29 and finish
+it off. That happened from time to time.</p>
+<p>We were playing a lottery. A certain number of planes had to be
+lost. You were just hoping that by blind chance yours would not be.
+When news of that atom bomb came–we didn't know what it was–we
+won the lottery. Hey, we're gonna get out of here! We may survive this
+after all.</p>
+<p>I never had any ambition to be a warrior. l had to condition myself,
+to sell myself against my own death. One measure of that is hatred. I did
+want every Japanese dead. Part of it was our own propaganda machine,
+but part of it was what we heard accurately. This was the enemy. We
+were there to eliminate them. That's the soldier's short-term bloody view.</p>
+<p>I was never really a soldier. I was caught up in the army, a civilian
+putting in my service. When it was over, I had a longer view. It's anyone's
+universe. Anyone has as good a right to it as I have. Who am I to want
+to go out killing people?</p>
+<p>I think the Germans of that era were guilty. On the other hand, I
+think any people subjected to a propaganda barrage, with their patriotic
+feelings worked on, could become savage.</p>
+<p>When you're on a mission and you saw a Japanese plane go down,
+you cheered. This was a football game. When one of your guys went
+down, you sighed. It was miserable. One of the saddest things I ever saw,
+when we were flying wing on a plane that got hit, was the barber's-chair
+gunner in the big bubble at the very top. He was right there beside us in
+plain sight, beginning to go down. He just waved his hand goodbye.
+There was nothing you could do. You couldn't reach out to touch him.
+Of course, that got you.</p>
+<p>You were under a compulsion to say nice things about the guy. You
+saw a plane break up. You saw it catch fire. You saw two chutes, one of
+them burning. Whatever it was, the truth is–the dark truth–you were
+secretly glad. It could have been you. It was a superstitious ritual we
+were playing. There were a certain number of blackballs to be passed
+out. Every time another plane went down, it was taken out of play.
+Somebody had to catch it, and somebody else caught it for you. It didn't
+make any sense, but that's the way we felt. That's a dirty, dark thing to
+say. When we go to funerals of old friends these days, in one corner of
+our minds we're saying, Well, I outlived that old bastard.</p>
+<p>When the news came that so-and-so's crew had been hit and gone
+down over Tokyo, you made sounds: Oh, my God. But somewhere, very
+deep down in your psyche, is, It could have been me.</p>
+<p>My first poems of any consequence, I feel, were war poems. I'm not
+a war poet, but just about that time they were beginning to come together.
+I found myself writing a lot of elegies for friends of mine who did
+not make it. Then it occurred to me that the way things were going, I
+might not make at. So l decided to write my own: "Elegy Just in Case . . .</p>
+<i>He recites:</i>
+<blockquote><p>Here lie Ciardi's pearly bones
+In their ripe organic mess.
+Jungle brown, his chromosomes
+Breed to a new address.</p>
+<p>Here lies the sgt.'s mortal wreck
+Lily spiked and termite kissed,
+Spider pendant from his neck
+And a beetle on his wrist.</p>
+<p>Bring the tick and southern flies
+Where the land crabs run unmourning
+Through a night of jungle skies
+To a climeless morning.</p>
+<p>And bring the chalked eraser here
+Fresh from rubbing out his name.
+Burn the crew-board for a bier.
+(Also Colonel what’s-his-name.)</p>
+<p>Let no dice be stored and still.
+Let no poker deck be torn.
+But pour the smuggled rye until
+The barracks threshold is outworn.</p>
+<p>File the papers, pack the clothes,
+Send the coded word through air–
+”We regret and no one knows
+Where the sgt. goes from here.”</p></blockquote>
+
+
+	</p>
+		
+</div>
+
+<div id="commentary" style="border-right:2px solid black">
+Comment goes here</div>
+</body>
+</html>
