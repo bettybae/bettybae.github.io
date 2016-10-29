@@ -54,7 +54,7 @@ $(document).ready(function(){
 			output = output.replace(regex, "<span class=\"redbold "+i+"\">"+i.replace("-", " ")+"</span>");
 		}
 		
-		$("div").html(output);
+		$("div.result").html(output);
 		$("span.redbold span").removeClass("greenbold").removeClass("bluebold");
 		
 		$("span.redbold").mouseenter(function() {
