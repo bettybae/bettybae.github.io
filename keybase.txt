@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/bettybae
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://bettybae.github.io
+  * I am bettybae (https://keybase.io/bettybae) on keybase.
+  * I have a public key with fingerprint D8FA 7A68 430A 679A 93AF  F47B 5662 AC1E 4146 F365
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01015b62ca842ccf098da20d4035e2c25bab6cd06e6697fd4c832024559d1e84f77a0a",
+            "fingerprint": "d8fa7a68430a679a93aff47b5662ac1e4146f365",
+            "host": "keybase.io",
+            "key_id": "5662ac1e4146f365",
+            "kid": "01015b62ca842ccf098da20d4035e2c25bab6cd06e6697fd4c832024559d1e84f77a0a",
+            "uid": "801439216037c9e957678078de7a5119",
+            "username": "bettybae"
+        },
+        "service": {
+            "hostname": "bettybae.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1485100545,
+    "expire_in": 157680000,
+    "prev": "b25342f78c2fda20b2dc5261ed4787686f95eb7dfe9d9352ac6d66c4ad94b770",
+    "seqno": 12,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.62
+Comment: https://keybase.io/crypto
+
+yMIpAnicrVJbbA1BGD6ldWnqHqFKtNvU01F7mZ3ZPe4tFUlDaU5SrThmd2bPWWX3
+dM/20B6lLlEPHkQQ10oQmiPqiEsqLlGXuIUg0gQRxYPGrSR9IGkwW7yIR/MymX++
+75vv+zI3hvT3ZaahCFe2cHTqWNq99uZaX8XmjrQEp9mkjgskuGrat9GVhMbcULVJ
+uADHC7wga1DUsQJEXTd4VSFY5AngJZmKuihrWIM64SGFUEUGAboiibwIZFklAlWA
+gRDmMefnDNMKUyfqmJbLZIliYIShAiQeQ6RiVcKGAZAmQyhiXaBAANCQoMyIETvm
+MZg5DcdooWmzGTuE+uz9A/+ffdf2ySm8ACRVFCAvIV2lqowgUnikEIqwLAiqB4xR
+x8KrKENr1HWZW8o1+Dk2jZs69Yr1kvyFKAybbqRW+5Uq6tiurdsr2X3EdaOxgMd3
+66IeYTXVQr+lQpppEdYmY8SpEzNtiwsIDKm7pqctAEUWeF4Gsp+ja6KmQ0Omh2CW
+FZ4t7x0a9zyIsgREAym6aHjdaCLRZREKlACkMDA0VJlqiBhUJaoks54hgVAHmKhA
+Q4jnvHA1ls20ReYTh5lmzAxb2K11WPRrV5em+9IyfQMy+nnfzJc5ePifz5d1ZOCP
+tWs755VUPS3o7i0vy8kf/zHjwrfTt/Y/HLS9ve2Vv6arImO2+uHI8GEreqqHFPd7
+8nLXp46i3V+u1wvdXxP15VWH92x5UAwfvc5rynp7dvncM3XZ21Ltt7LnHzzwPn78
+sTKxKFhVn5w8I3Bj3IT8pq17rwytfv6ic9mOVFOOvzfZ5KTTDXdHpFtjCk4uSDRu
+mtVy6s4sLj+cG+g6v8gpffOgueDt59aMvOdtk/YYpc3x4PcEuLx03Zy9ecETn1ty
+kwemNh5axlkf1j+rHNnxbGfNNK0EL2oI5s6cnhorHtX3TWkrO5d/83bSXt64uLUh
+e1xlsKQndIkKSzbO7h7V1dF58f6719JP6Us9eQ==
+=2xTp
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bettybae
+
+==================================================================
+
